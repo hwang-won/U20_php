@@ -8,29 +8,13 @@
                 </p>
                 <div class="accordion_content">
                     <ul>
-                        <li><a href="judge.php">심판 목록</a></li>
-                        <li><a href="director.php">임원 목록</a></li>
-                        <li><a href="coach.php">코치 목록</a></li>
+                        <li><a href="entry_judge.php">심판 목록</a></li>
+                        <li><a href="entry_director.php">임원 목록</a></li>
+                        <li><a href="entry_coach.php">코치 목록</a></li>
+                        <li><a href="entry_athelete.php">선수 목록</a></li>
                     </ul>
                 </div>
             </li>
-
-            <li class="accordion_li">
-                <p class="menu_button">
-                    <i class="fa-solid fa-angle-right"></i>
-                    선수 관리
-                </p>
-                <div class="accordion_content">
-                    <ul>
-                        <li>
-                            <a href="athletemanagement.php"
-                                >선수 목록</a
-                            >
-                        </li>
-                    </ul>
-                </div>
-            </li>
-
             <li class="accordion_li">
                 <p class="menu_button">
                     <i class="fa-solid fa-angle-right"></i>
