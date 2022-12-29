@@ -622,12 +622,12 @@ table.team_table.center {
 }
 
 .btn_issueId {
-  background: #e9eaed;
+  background: #fff780;
   color: #444444;
 }
 
 .btn_issueId:hover {
-  background: #bdbdbd;
+  background: #ddd460;
 }
 
 .btn_view {
