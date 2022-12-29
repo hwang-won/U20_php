@@ -228,6 +228,10 @@ hr {
 
 /*homepage.html*/
 /*선수,국가 랭킹 테이블*/
+.team_tabs-content {
+  padding-bottom: 8px;
+}
+
 .main-table {
   position: relative;
   height: auto;
@@ -574,7 +578,6 @@ table.team_table.center {
 .col_right {
   float: right;
   margin-left: 15px;
-  padding-top: 8px;
 }
 
 .col_left {
@@ -616,6 +619,15 @@ table.team_table.center {
 .btn_base .btn_add i {
   position: relative;
   left: -6px;
+}
+
+.btn_issueId {
+  background: #e9eaed;
+  color: #444444;
+}
+
+.btn_issueId:hover {
+  background: #bdbdbd;
 }
 
 .btn_view {

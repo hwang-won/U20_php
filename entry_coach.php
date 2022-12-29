@@ -58,13 +58,6 @@
                                 </select>
                             </div>
                             <div class="select_box mr10">
-                                <select class="d_select" title="지역" style="width: 8em;">
-                                    <option value="" hidden="">지역</option>
-                                    <option value="1">서울</option>
-                                    <option value="2">도쿄</option>
-                                </select>
-                            </div>
-                            <div class="select_box mr10">
                                 <select class="d_select" title="소속" style="width: 8em;">
                                     <option value="" hidden="">소속</option>
                                     <option value="1">국제코치협회</option>
@@ -142,13 +135,17 @@
                             <col width="auto">
                             <col width="auto">
                             <col width="auto">
+                            <col width="auto">
+                            <col width="auto">
                         </colgroup>
                         <thead>
                             <tr>
+                                <th scope="col">
+                                    <input type="checkbox" name="checkAthlete-all" id="checkAthlete-all" onclick="toggle(this)">
+                                </th>
                                 <th scope="col">번호</th>
                                 <th scope="col">이름</th>
                                 <th scope="col">국가</th>
-                                <th scope="col">지역</th>
                                 <th scope="col">소속</th>
                                 <th scope="col">성별</th>
                                 <th scope="col">생년월일</th>
@@ -162,10 +159,12 @@
                         </thead>
                         <tbody>
                             <tr>
+                                <td scope="col">
+                                    <input type="checkbox" id="checkAthlete" name="checkAthlete">
+                                </td>
                                 <td scope="col">1</td>
                                 <td scope="col">고길동</td>
                                 <td scope="col">한국</td>
-                                <td scope="col">서울</td>
                                 <td scope="col">팀 아누</td>
                                 <td scope="col">남</td>
                                 <td scope="col">1998년 11월 15일</td>
@@ -181,10 +180,12 @@
                                 <td scope="col"><a href="#" onclick="" class="btn_delete">삭제</a></td>
                             </tr>
                             <tr>
+                                <td scope="col">
+                                    <input type="checkbox" id="checkAthlete" name="checkAthlete">
+                                </td>
                                 <td scope="col">2</td>
                                 <td scope="col">고길동</td>
                                 <td scope="col">한국</td>
-                                <td scope="col">서울</td>
                                 <td scope="col">팀 아누</td>
                                 <td scope="col">남</td>
                                 <td scope="col">1998년 11월 15일</td>
@@ -200,9 +201,22 @@
                                 <td scope="col"><a href="#" onclick="" class="btn_delete">삭제</a></td>
                             </tr>
                         </tbody>
+                        <script language="JavaScript">
+                            function toggle(box){
+                                checkboxes = document.getElementsByName('checkAthlete');
+                                for(var i=0,n=checkboxes.length;i<n;i++){
+                                    checkboxes[i].checked = box.checked;
+                                }
+                            };
+                        </script>
                     </table>
                 </div>
                 <!-- 등록 버튼 -->
+                <div class="btn_base base_mar col_left">
+                    <input class="btn_issueId btn_txt bold" type="button"
+                        onclick="window.open('athlete_issue.php','창 이름','width=900,height=512,location=no,status=no,scrollbars=yes')"
+                        value="ID발급" class="btn_view">
+                </div>
                 <div class="btn_base base_mar col_right">
                     <input class="btn_add btn_txt bold" type="button"
                         onclick="window.open('coach_input.php','창 이름','width=900,height=512,location=no,status=no,scrollbars=yes')"

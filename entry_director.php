@@ -125,22 +125,40 @@
 
                     <!-- 임원 테이블 -->
                     <table class="table table-hover team_table display" id="director_table">
-                        <colgroup>
-                            <col width="5%">
-                            <col width="8%">
-                            <col width="7%">
-                            <col width="8%">
-                            <col width="8%">
-                            <col width="10%">
-                            <col width="5%">
-                            <col width="7%">
-                            <col width="13%">
-                            <col width="10%">
-                            <col width="10%">
-                            <col width="12%">
+                                                <colgroup>
+                            <!--
+                                <col width="5%">
+                                <col width="8%">
+                                <col width="7%">
+                                <col width="10%">
+                                <col width="8%">
+                                <col width="10%">
+                                <col width="5%">
+                                <col width="7%">
+                                <col width="13%">
+                                <col width="10%">
+                                <col width="10%">
+                                <col width="10%">
+                                -->
+                            <col width="auto">
+                            <col width="auto">
+                            <col width="auto">
+                            <col width="auto">
+                            <col width="auto">
+                            <col width="auto">
+                            <col width="auto">
+                            <col width="auto">
+                            <col width="auto">
+                            <col width="auto">
+                            <col width="auto">
+                            <col width="auto">
+                            <col width="auto">
                         </colgroup>
                         <thead>
                             <tr>
+                                <th scope="col">
+                                    <input type="checkbox" name="checkAthlete-all" id="checkAthlete-all" onclick="toggle(this)">
+                                </th>
                                 <th scope="col">번호</th>
                                 <th scope="col">이름</th>
                                 <th scope="col">국가</th>
@@ -157,25 +175,30 @@
                         </thead>
                         <tbody>
                             <tr>
-                                <td class="director_no">1</td>
-                                <td class="director_name">고길동</td>
-                                <td class="director_nation">한국</td>
-                                <td class="director_division">한국심판협회</td>
-                                <td class="director_gender">남</td>
-                                <td class="director_birth">1998년 11월 15일</td>
-                                <td class="director_age">25</td>
-                                <td class="director_role">주 심판</td>
-                                <td class="director_attendent_game">100m, 200m</td>
-
+                                <td scope="col">
+                                    <input type="checkbox" id="checkAthlete" name="checkAthlete">
+                                </td>
+                                <td class="judge_no">1</td>
+                                <td class="judge_name">고길동</td>
+                                <td class="judge_nation">한국</td>
+                                <td class="judge_division">한국심판협회</td>
+                                <td class="judge_gender">남</td>
+                                <td class="judge_birth">1998년 11월 15일</td>
+                                <td class="judge_age">25</td>
+                                <td class="judge_role">주 심판</td>
+                                <td class="judge_attendent_game">100m, 200m</td>
                                 <td><input type="button"
-                                        onclick="window.open('director_input.php','창 이름','width=900,height=512,location=no,status=no,scrollbars=yes')"
+                                        onclick="window.open('judge_info.php','창 이름','width=900,height=512,location=no,status=no,scrollbars=yes')"
                                         value="보기" class="btn_view"></td>
                                 <td><input type="button"
-                                        onclick="window.open('director_modify.php','창 이름','width=900,height=512,location=no,status=no,scrollbars=yes')"
+                                        onclick="window.open('judge_modify.php','창 이름','width=900,height=512,location=no,status=no,scrollbars=yes')"
                                         value="수정" class="btn_modify"></td>
                                 <td><a href="#" onclick="" class="btn_delete">삭제</a></td>
                             </tr>
                             <tr>
+                                <td scope="col">
+                                    <input type="checkbox" id="checkAthlete" name="checkAthlete">
+                                </td>
                                 <td scope="col">2</td>
                                 <td scope="col">김순자</td>
                                 <td scope="col">미국</td>
@@ -186,17 +209,30 @@
                                 <td scope="col">부 심판</td>
                                 <td scope="col">투포환</td>
                                 <td><input type="button"
-                                        onclick="window.open('director_input.php','창 이름','width=900,height=512,location=no,status=no,scrollbars=yes')"
+                                        onclick="window.open('judge_info.php','창 이름','width=900,height=512,location=no,status=no,scrollbars=yes')"
                                         value="보기" class="btn_view"></td>
                                 <td><input type="button"
-                                        onclick="window.open('director_modify.php','창 이름','width=900,height=512,location=no,status=no,scrollbars=yes')"
+                                        onclick="window.open('judge_modify.php','창 이름','width=900,height=512,location=no,status=no,scrollbars=yes')"
                                         value="수정" class="btn_modify"></td>
                                 <td scope="col"><a href="#" onclick="" class="btn_delete">삭제</a></td>
                             </tr>
                         </tbody>
+                        <script language="JavaScript">
+                            function toggle(box){
+                                checkboxes = document.getElementsByName('checkAthlete');
+                                for(var i=0,n=checkboxes.length;i<n;i++){
+                                    checkboxes[i].checked = box.checked;
+                                }
+                            };
+                        </script>
                     </table>
                 </div>
                 <!-- 등록 버튼 -->
+                <div class="btn_base base_mar col_left">
+                    <input class="btn_issueId btn_txt bold" type="button"
+                        onclick="window.open('athlete_issue.php','창 이름','width=900,height=512,location=no,status=no,scrollbars=yes')"
+                        value="ID발급" class="btn_view">
+                </div>
                 <div class="btn_base base_mar col_right">
                     <input class="btn_add btn_txt bold" type="button"
                         onclick="window.open('director_input.php','창 이름','width=900,height=512,location=no,status=no,scrollbars=yes')"
