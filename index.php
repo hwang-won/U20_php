@@ -93,51 +93,283 @@
                             <tbody>
                                 <tr>
                                     <td scope="col">1</td>
-                                    <td scope="col">KOREA</td>
+                                    <td scope="col">Korea</td>
+                                    <td scope="col">18</td>
+                                    <td scope="col">12</td>
                                     <td scope="col">10</td>
+                                    <td scope="col">40</td>
+                                </tr>
+                                <tr>
+                                    <td scope="col">2</td>
+                                    <td scope="col">China</td>
+                                    <td scope="col">17</td>
+                                    <td scope="col">11</td>
+                                    <td scope="col">10</td>
+                                    <td scope="col">38</td>
+                                </tr>
+                                <tr>
+                                    <td scope="col">3</td>
+                                    <td scope="col">Indonesia</td>
+                                    <td scope="col">16</td>
+                                    <td scope="col">11</td>
+                                    <td scope="col">9</td>
+                                    <td scope="col">36</td>
+                                </tr>
+                                <tr>
+                                    <td scope="col">4</td>
+                                    <td scope="col">Cambodia</td>
+                                    <td scope="col">15</td>
+                                    <td scope="col">10</td>
+                                    <td scope="col">9</td>
+                                    <td scope="col">34</td>
+                                </tr>
+                                <tr>
+                                    <td scope="col">5</td>
+                                    <td scope="col">Hong Kong</td>
+                                    <td scope="col">14</td>
+                                    <td scope="col">10</td>
+                                    <td scope="col">9</td>
+                                    <td scope="col">33</td>
+                                </tr>
+                                <tr>
+                                    <td scope="col">6</td>
+                                    <td scope="col">India</td>
+                                    <td scope="col">13</td>
+                                    <td scope="col">10</td>
+                                    <td scope="col">9</td>
+                                    <td scope="col">32</td>
+                                </tr>
+                                <tr>
+                                    <td scope="col">7</td>
+                                    <td scope="col">Iran</td>
+                                    <td scope="col">12</td>
+                                    <td scope="col">9</td>
+                                    <td scope="col">9</td>
+                                    <td scope="col">30</td>
+                                </tr>
+                                <tr>
                                     <td scope="col">8</td>
+                                    <td scope="col">Iraq</td>
+                                    <td scope="col">12</td>
+                                    <td scope="col">8</td>
+                                    <td scope="col">8</td>
+                                    <td scope="col">28</td>
+                                </tr>
+                                <tr>
+                                    <td scope="col">9</td>
+                                    <td scope="col">Jordan</td>
+                                    <td scope="col">12</td>
+                                    <td scope="col">8</td>
+                                    <td scope="col">7</td>
+                                    <td scope="col">27</td>
+                                </tr>
+                                <tr>
+                                    <td scope="col">10</td>
+                                    <td scope="col">Japan</td>
+                                    <td scope="col">11</td>
+                                    <td scope="col">8</td>
+                                    <td scope="col">7</td>
+                                    <td scope="col">26</td>
+                                </tr>
+                                <tr>
+                                    <td scope="col">11</td>
+                                    <td scope="col">Kazakhstan</td>
+                                    <td scope="col">11</td>
+                                    <td scope="col">7</td>
                                     <td scope="col">7</td>
                                     <td scope="col">25</td>
                                 </tr>
                                 <tr>
-                                    <td scope="col">2</td>
-                                    <td scope="col">INDIA</td>
+                                    <td scope="col">12</td>
+                                    <td scope="col">Kyrgyzstan</td>
+                                    <td scope="col">11</td>
                                     <td scope="col">7</td>
                                     <td scope="col">6</td>
+                                    <td scope="col">24</td>
+                                </tr>
+                                <tr>
+                                    <td scope="col">13</td>
+                                    <td scope="col">Saudi Arabia</td>
+                                    <td scope="col">10</td>
+                                    <td scope="col">7</td>
+                                    <td scope="col">6</td>
+                                    <td scope="col">23</td>
+                                </tr>
+                                <tr>
+                                    <td scope="col">14</td>
+                                    <td scope="col">Kuwait</td>
+                                    <td scope="col">10</td>
+                                    <td scope="col">7</td>
+                                    <td scope="col">5</td>
+                                    <td scope="col">22</td>
+                                </tr>
+                                <tr>
+                                    <td scope="col">15</td>
+                                    <td scope="col">Laos</td>
+                                    <td scope="col">10</td>
+                                    <td scope="col">6</td>
+                                    <td scope="col">5</td>
+                                    <td scope="col">21</td>
+                                </tr>
+                                <tr>
+                                    <td scope="col">16</td>
+                                    <td scope="col">Lebanon</td>
+                                    <td scope="col">10</td>
+                                    <td scope="col">5</td>
+                                    <td scope="col">5</td>
+                                    <td scope="col">20</td>
+                                </tr>
+                                <tr>
+                                    <td scope="col">17</td>
+                                    <td scope="col">Macau</td>
+                                    <td scope="col">9</td>
+                                    <td scope="col">5</td>
+                                    <td scope="col">5</td>
+                                    <td scope="col">19</td>
+                                </tr>
+                                <tr>
+                                    <td scope="col">18</td>
+                                    <td scope="col">Malaysia</td>
+                                    <td scope="col">9</td>
+                                    <td scope="col">5</td>
                                     <td scope="col">4</td>
+                                    <td scope="col">18</td>
+                                </tr>
+                                <tr>
+                                    <td scope="col">19</td>
+                                    <td scope="col">Malaysia</td>
+                                    <td scope="col">9</td>
+                                    <td scope="col">5</td>
+                                    <td scope="col">3</td>
                                     <td scope="col">17</td>
                                 </tr>
                                 <tr>
-                                    <td scope="col">3</td>
-                                    <td scope="col">JAPAN</td>
-                                    <td scope="col">6</td>
-                                    <td scope="col">6</td>
-                                    <td scope="col">3</td>
+                                    <td scope="col">20</td>
+                                    <td scope="col">Myanmar</td>
+                                    <td scope="col">9</td>
+                                    <td scope="col">5</td>
+                                    <td scope="col">2</td>
+                                    <td scope="col">16</td>
+                                </tr>
+                                <tr>
+                                    <td scope="col">21</td>
+                                    <td scope="col">Oman</td>
+                                    <td scope="col">9</td>
+                                    <td scope="col">5</td>
+                                    <td scope="col">1</td>
                                     <td scope="col">15</td>
                                 </tr>
                                 <tr>
+                                    <td scope="col">22</td>
+                                    <td scope="col">Pakistan</td>
+                                    <td scope="col">9</td>
                                     <td scope="col">4</td>
-                                    <td scope="col">INDONESIA</td>
-                                    <td scope="col">5</td>
-                                    <td scope="col">5</td>
-                                    <td scope="col">4</td>
+                                    <td scope="col">1</td>
                                     <td scope="col">14</td>
                                 </tr>
                                 <tr>
-                                    <td scope="col">5</td>
-                                    <td scope="col">SAUDI ARABIA</td>
-                                    <td scope="col">5</td>
+                                    <td scope="col">23</td>
+                                    <td scope="col">Philippines</td>
+                                    <td scope="col">8</td>
                                     <td scope="col">3</td>
                                     <td scope="col">2</td>
+                                    <td scope="col">13</td>
+                                </tr>
+                                <tr>
+                                    <td scope="col">24</td>
+                                    <td scope="col">Qatar</td>
+                                    <td scope="col">8</td>
+                                    <td scope="col">2</td>
+                                    <td scope="col">2</td>
+                                    <td scope="col">12</td>
+                                </tr>
+                                <tr>
+                                    <td scope="col">25</td>
+                                    <td scope="col">Singapore</td>
+                                    <td scope="col">8</td>
+                                    <td scope="col">2</td>
+                                    <td scope="col">1</td>
+                                    <td scope="col">11</td>
+                                </tr>
+                                <tr>
+                                    <td scope="col">26</td>
+                                    <td scope="col">Sri Lanka</td>
+                                    <td scope="col">8</td>
+                                    <td scope="col">1</td>
+                                    <td scope="col">1</td>
                                     <td scope="col">10</td>
                                 </tr>
                                 <tr>
-                                    <td scope="col">6</td>
-                                    <td scope="col">CHINA</td>
+                                    <td scope="col">27</td>
+                                    <td scope="col">Syria</td>
+                                    <td scope="col">4</td>
+                                    <td scope="col">3</td>
+                                    <td scope="col">2</td>
+                                    <td scope="col">9</td>
+                                </tr>
+                                <tr>
+                                    <td scope="col">28</td>
+                                    <td scope="col">Thailand</td>
+                                    <td scope="col">4</td>
+                                    <td scope="col">2</td>
+                                    <td scope="col">2</td>
+                                    <td scope="col">8</td>
+                                </tr>
+                                <tr>
+                                    <td scope="col">29</td>
+                                    <td scope="col">Tajikistan</td>
                                     <td scope="col">4</td>
                                     <td scope="col">2</td>
                                     <td scope="col">1</td>
                                     <td scope="col">7</td>
+                                </tr>
+                                <tr>
+                                    <td scope="col">30</td>
+                                    <td scope="col">Turkmenistan</td>
+                                    <td scope="col">4</td>
+                                    <td scope="col">1</td>
+                                    <td scope="col">1</td>
+                                    <td scope="col">6</td>
+                                </tr>
+                                <tr>
+                                    <td scope="col">31</td>
+                                    <td scope="col">Chinese Taipei</td>
+                                    <td scope="col">4</td>
+                                    <td scope="col">1</td>
+                                    <td scope="col">0</td>
+                                    <td scope="col">5</td>
+                                </tr>
+                                <tr>
+                                    <td scope="col">32</td>
+                                    <td scope="col">Uzbekistan</td>
+                                    <td scope="col">2</td>
+                                    <td scope="col">1</td>
+                                    <td scope="col">1</td>
+                                    <td scope="col">4</td>
+                                </tr>
+                                <tr>
+                                    <td scope="col">33</td>
+                                    <td scope="col">Vietnam</td>
+                                    <td scope="col">2</td>
+                                    <td scope="col">0</td>
+                                    <td scope="col">1</td>
+                                    <td scope="col">3</td>
+                                </tr>
+                                <tr>
+                                    <td scope="col">34</td>
+                                    <td scope="col">Yemen</td>
+                                    <td scope="col">0</td>
+                                    <td scope="col">1</td>
+                                    <td scope="col">1</td>
+                                    <td scope="col">2</td>
+                                </tr>
+                                <tr>
+                                    <td scope="col">35</td>
+                                    <td scope="col">Bangladesh</td>
+                                    <td scope="col">0</td>
+                                    <td scope="col">0</td>
+                                    <td scope="col">1</td>
+                                    <td scope="col">1</td>
                                 </tr>
                             </tbody>
                         </table>
@@ -164,7 +396,6 @@
                 </div> -->
 
                     <!-- 선수 별 순위 -->
-
                     <div class="team_tabs-content tab">
                         <table
                             class="table table-hover team_table"
@@ -189,47 +420,33 @@
                                     <th scope="col">합계</th>
                                 </tr>
                             </thead>
+
                             <tbody>
-                                <tr>
-                                    <td scope="col">1</td>
-                                    <td scope="col">홍길동</td>
-                                    <td scope="col">5</td>
-                                    <td scope="col">3</td>
-                                    <td scope="col">2</td>
-                                    <td scope="col">10</td>
-                                </tr>
-                                <tr>
-                                    <td scope="col">2</td>
-                                    <td scope="col">김기자</td>
-                                    <td scope="col">3</td>
-                                    <td scope="col">3</td>
-                                    <td scope="col">2</td>
-                                    <td scope="col">8</td>
-                                </tr>
-                                <tr>
-                                    <td scope="col">3</td>
-                                    <td scope="col">이비즈</td>
-                                    <td scope="col">3</td>
-                                    <td scope="col">2</td>
-                                    <td scope="col">2</td>
-                                    <td scope="col">7</td>
-                                </tr>
-                                <tr>
-                                    <td scope="col">4</td>
-                                    <td scope="col">아시즈</td>
-                                    <td scope="col">2</td>
-                                    <td scope="col">2</td>
-                                    <td scope="col">3</td>
-                                    <td scope="col">5</td>
-                                </tr>
-                                <tr>
-                                    <td scope="col">5</td>
-                                    <td scope="col">호시타 사이타마</td>
-                                    <td scope="col">2</td>
-                                    <td scope="col">1</td>
-                                    <td scope="col">1</td>
-                                    <td scope="col">4</td>
-                                </tr>
+                                <?php
+                                    include_once 'db_con.php';
+                                    $sql = "SELECT * FROM list_athlete ORDER BY list_athlete.athlete_id ASC;";
+                                    $result = $con->query($sql);
+                                    $row_num = mysqli_num_rows($result);
+                                    $goldNum = $row_num;
+                                    $silverNum = 0;
+                                    $bronzeNum = 0;
+
+                                    if($result->num_rows > 0){
+                                        while($row = $result->fetch_assoc()){
+                                            $silverNum = rand(0,$goldNum);
+                                            $bronzeNum = rand(0,$silverNum);
+                                            echo '<tr>';
+                                            echo '<td scope="col">'."$row[athlete_id]".'</td>';
+                                            echo '<td scope="col">'."$row[athlete_name]".'</td>';
+                                            echo '<td scope="col">'.$goldNum.'</td>';
+                                            echo '<td scope="col">'.$silverNum.'</td>';
+                                            echo '<td scope="col">'.$bronzeNum.'</td>';
+                                            echo '<td scope="col">'.$goldNum+$silverNum+$bronzeNum.'</td>';
+                                            echo '</tr>';
+                                            $goldNum--;
+                                        }
+                                    }
+                                ?>
                             </tbody>
                         </table>
                     </div>

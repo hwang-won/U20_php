@@ -40,7 +40,8 @@
 					</div>
 					<!-- 엑셀 입력 버튼 -->
 					<form action="" enctype="multipart/form-data">
-						<input type="file" id="upload_judge" hidden /><label for="upload_judge"
+						<input type="file" id="upload_judge" hidden />
+                        <label for="upload_judge"
 							class="btn_excel label_for_excel_import bold float_l">엑셀
 							입력</label>
 					</form>
