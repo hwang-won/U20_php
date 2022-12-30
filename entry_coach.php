@@ -193,10 +193,10 @@
                                 <td scope="col">헤드 코치</td>
                                 <td scope="col">100m</td>
                                 <td><input type="button"
-                                        onclick="window.open('coach_info.php','창 이름','width=900,height=512,location=no,status=no,scrollbars=yes')"
+                                        onclick="window.open('entry_coach_info.php','창 이름','width=900,height=512,location=no,status=no,scrollbars=yes')"
                                         value="보기" class="btn_view"></td>
                                 <td><input type="button"
-                                        onclick="window.open('coach_modify.php','창 이름','width=900,height=512,location=no,status=no,scrollbars=yes')"
+                                        onclick="window.open('entry_coach_modify.php','창 이름','width=900,height=512,location=no,status=no,scrollbars=yes')"
                                         value="수정" class="btn_modify"></td>
                                 <td scope="col"><a href="#" onclick="" class="btn_delete">삭제</a></td>
                             </tr>
@@ -219,7 +219,7 @@
                 </div>
                 <div class="btn_base base_mar col_right">
                     <input class="btn_add btn_txt bold" type="button"
-                        onclick="window.open('coach_input.php','창 이름','width=900,height=512,location=no,status=no,scrollbars=yes')"
+                        onclick="window.open('entry_coach_input.php','창 이름','width=900,height=512,location=no,status=no,scrollbars=yes')"
                         value="등록" class="btn_view">
                 </div>
             </div>

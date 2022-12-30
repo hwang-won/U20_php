@@ -118,7 +118,7 @@
                             </div>
                             <div class="search" style="width: 15em;">
                                 <input type="text" id="search_judge" class="word" name="search_judge"
-                                    placeholder="검색어를 입력해주세요" maxlength="30">
+                                    placeholder="이름을 입력해주세요" maxlength="30">
                                 <button type="submit" class="btn_search" title="검색"></a>
                             </div>
                         </div>
@@ -188,10 +188,10 @@
                                 <td class="judge_role">주 심판</td>
                                 <td class="judge_attendent_game">100m, 200m</td>
                                 <td><input type="button"
-                                        onclick="window.open('judge_info.php','창 이름','width=900,height=512,location=no,status=no,scrollbars=yes')"
+                                        onclick="window.open('entry_.php','창 이름','width=900,height=512,location=no,status=no,scrollbars=yes')"
                                         value="보기" class="btn_view"></td>
                                 <td><input type="button"
-                                        onclick="window.open('judge_modify.php','창 이름','width=900,height=512,location=no,status=no,scrollbars=yes')"
+                                        onclick="window.open('entry_judge_modify.php','창 이름','width=900,height=512,location=no,status=no,scrollbars=yes')"
                                         value="수정" class="btn_modify"></td>
                                 <td><a href="#" onclick="" class="btn_delete">삭제</a></td>
                             </tr>
@@ -209,10 +209,10 @@
                                 <td scope="col">부 심판</td>
                                 <td scope="col">투포환</td>
                                 <td><input type="button"
-                                        onclick="window.open('judge_info.php','창 이름','width=900,height=512,location=no,status=no,scrollbars=yes')"
+                                        onclick="window.open('entry_judge_info.php','창 이름','width=900,height=512,location=no,status=no,scrollbars=yes')"
                                         value="보기" class="btn_view"></td>
                                 <td><input type="button"
-                                        onclick="window.open('judge_modify.php','창 이름','width=900,height=512,location=no,status=no,scrollbars=yes')"
+                                        onclick="window.open('entry_judge_modify.php','창 이름','width=900,height=512,location=no,status=no,scrollbars=yes')"
                                         value="수정" class="btn_modify"></td>
                                 <td scope="col"><a href="#" onclick="" class="btn_delete">삭제</a></td>
                             </tr>
@@ -235,7 +235,7 @@
                 </div>
                 <div class="btn_base base_mar col_right">
                     <input class="btn_add btn_txt bold" type="button"
-                        onclick="window.open('judge_input.php','창 이름','width=900,height=512,location=no,status=no,scrollbars=yes')"
+                        onclick="window.open('entry_judge_input.php','창 이름','width=900,height=512,location=no,status=no,scrollbars=yes')"
                         value="등록" class="btn_view">
                 </div>
             </div>

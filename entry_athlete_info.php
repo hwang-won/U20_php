@@ -157,8 +157,14 @@
             </div>
           </div>
           <div class="btn-wrap center">
-            <button class="btn btn-back" onclick="history.back();">
-              돌아가기
+            <button class="btn btn-back float_l" onclick="">
+              ID카드 보기
+            </button>
+          </div>
+          <div class="btn-wrap center">
+            <!-- <button class="btn btn-back" onclick="history.back();"> -->
+            <button class="btn btn-back float_r" onclick="window.close()">
+              닫기
             </button>
           </div>
         </div>
