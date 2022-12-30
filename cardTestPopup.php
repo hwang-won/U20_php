@@ -9,9 +9,22 @@
   <body>
     <input
       type="button"
-      onclick="window.open('athlete_info.php','창 이름','width=800,height=900,location=no,status=no,scrollbars=yes')"
+      onclick="createPopupWin('./athlete_info.php',
+            'GeeksforGeeks Website', 1100, 900);"
       value="보기"
       class="btn_view"
     />
+    <script lang="JavaScript">
+      function createPopupWin(pageURL, pageTitle,
+                    popupWinWidth, popupWinHeight) {
+            var left = (screen.width - popupWinWidth) / 2;
+            var top = (screen.height - popupWinHeight) / 4;
+             
+            var myWindow = window.open(pageURL, pageTitle,
+                    'resizable=yes, width=' + popupWinWidth
+                    + ', height=' + popupWinHeight + ', top='
+                    + top + ', left=' + left);
+        }
+    </script>
   </body>
 </html>
