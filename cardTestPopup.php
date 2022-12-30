@@ -9,7 +9,7 @@
   <body>
     <input
       type="button"
-      onclick="window.open('athlete_info_cardTest.html','창 이름','width=800,height=900,location=no,status=no,scrollbars=yes')"
+      onclick="window.open('athlete_info.php','창 이름','width=800,height=900,location=no,status=no,scrollbars=yes')"
       value="보기"
       class="btn_view"
     />
