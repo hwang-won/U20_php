@@ -105,7 +105,7 @@
                             </div>
                             <div class="search" style="width: 15em;">
                                 <input type="text" id="search_judge" class="word" name="search_judge"
-                                    placeholder="검색어를 입력해주세요" maxlength="30">
+                                    placeholder="이름을 입력해주세요" maxlength="30">
                                 <button type="submit" class="btn_search" title="검색"></a>
                             </div>
                         </div>
