@@ -188,59 +188,16 @@
                                 <td class="judge_role">주 심판</td>
                                 <td class="judge_attendent_game">100m, 200m</td>
                                 <td><input type="button"
-                                        onclick="window.open('entry_judge_info.php','창 이름','width=900,height=512,location=no,status=no,scrollbars=yes')"
+                                        onclick="createPopupWin('./entry_director_info.php',
+                                            '상세내용 보기', 1100, 900);"
                                         value="보기" class="btn_view"></td>
                                 <td><input type="button"
-                                        onclick="window.open('entry_judge_modify.php','창 이름','width=900,height=512,location=no,status=no,scrollbars=yes')"
+                                        onclick="createPopupWin('./entry_director_modify.php',
+                                            '상세내용 수정', 1100, 900);"
                                         value="수정" class="btn_modify"></td>
                                 <td><a href="#" onclick="" class="btn_delete">삭제</a></td>
                             </tr>
-                            <tr>
-                                <td scope="col">
-                                    <input type="checkbox" id="checkAthlete" name="checkAthlete">
-                                </td>
-                                <td scope="col">2</td>
-                                <td scope="col">김순자</td>
-                                <td scope="col">미국</td>
-                                <td scope="col">미국심판협회</td>
-                                <td scope="col">여</td>
-                                <td scope="col">1968년 11월 15일</td>
-                                <td scope="col">69</td>
-                                <td scope="col">부 심판</td>
-                                <td scope="col">투포환</td>
-                                <td><input
-                                    type="button"
-                                    onclick="createPopupWin('./entry_director_info.php',
-                                            '상세내용 보기', 1100, 900);"
-                                    value="보기"
-                                    class="btn_view"
-                                    />
-                                    <script lang="JavaScript">
-                                    function createPopupWin(pageURL, pageTitle,
-                                                    popupWinWidth, popupWinHeight) {
-                                            var left = (screen.width - popupWinWidth) / 2;
-                                            var top = (screen.height - popupWinHeight) / 4;
-                                            
-                                            var myWindow = window.open(pageURL, pageTitle,
-                                                    'resizable=yes, width=' + popupWinWidth
-                                                    + ', height=' + popupWinHeight + ', top='
-                                                    + top + ', left=' + left);
-                                        }
-                                    </script></td>
-                                <td><input type="button"
-                                        onclick="window.open('entry_judge_modify.php','창 이름','width=900,height=512,location=no,status=no,scrollbars=yes')"
-                                        value="수정" class="btn_modify"></td>
-                                <td scope="col"><a href="#" onclick="" class="btn_delete">삭제</a></td>
-                            </tr>
                         </tbody>
-                        <script language="JavaScript">
-                            function toggle(box){
-                                checkboxes = document.getElementsByName('checkAthlete');
-                                for(var i=0,n=checkboxes.length;i<n;i++){
-                                    checkboxes[i].checked = box.checked;
-                                }
-                            };
-                        </script>
                     </table>
                 </div>
                 <!-- 등록 버튼 -->

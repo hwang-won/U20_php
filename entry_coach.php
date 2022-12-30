@@ -171,66 +171,15 @@
                                 <td scope="col">25</td>
                                 <td scope="col">헤드 코치</td>
                                 <td scope="col">100m</td>
-                                <td><input
-                                    type="button"
-                                    onclick="createPopupWin('./entry_coach_info.php',
-                                            '상세내용 보기', 1100, 900);"
-                                    value="보기"
-                                    class="btn_view"
-                                    />
-                                    <script lang="JavaScript">
-                                    function createPopupWin(pageURL, pageTitle,
-                                                    popupWinWidth, popupWinHeight) {
-                                            var left = (screen.width - popupWinWidth) / 2;
-                                            var top = (screen.height - popupWinHeight) / 4;
-                                            
-                                            var myWindow = window.open(pageURL, pageTitle,
-                                                    'resizable=yes, width=' + popupWinWidth
-                                                    + ', height=' + popupWinHeight + ', top='
-                                                    + top + ', left=' + left);
-                                        }
-                                    </script></td>
                                 <td><input type="button"
-                                        onclick="window.open('entry_coach_modify.php','창 이름','width=900,height=512,location=no,status=no,scrollbars=yes')"
-                                        value="수정" class="btn_modify"></td>
-                                <td scope="col"><a href="#" onclick="" class="btn_delete">삭제</a></td>
-                            </tr>
-                            <tr>
-                                <td scope="col">
-                                    <input type="checkbox" id="checkAthlete" name="checkAthlete">
-                                </td>
-                                <td scope="col">2</td>
-                                <td scope="col">고길동</td>
-                                <td scope="col">한국</td>
-                                <td scope="col">팀 아누</td>
-                                <td scope="col">남</td>
-                                <td scope="col">1998년 11월 15일</td>
-                                <td scope="col">25</td>
-                                <td scope="col">헤드 코치</td>
-                                <td scope="col">100m</td>
-                                <td><input
-                                    type="button"
-                                    onclick="createPopupWin('./entry_coach_info.php',
+                                        onclick="createPopupWin('./entry_coach_info.php',
                                             '상세내용 보기', 1100, 900);"
-                                    value="보기"
-                                    class="btn_view"
-                                    />
-                                    <script lang="JavaScript">
-                                    function createPopupWin(pageURL, pageTitle,
-                                                    popupWinWidth, popupWinHeight) {
-                                            var left = (screen.width - popupWinWidth) / 2;
-                                            var top = (screen.height - popupWinHeight) / 4;
-                                            
-                                            var myWindow = window.open(pageURL, pageTitle,
-                                                    'resizable=yes, width=' + popupWinWidth
-                                                    + ', height=' + popupWinHeight + ', top='
-                                                    + top + ', left=' + left);
-                                        }
-                                    </script></td>
+                                        value="보기" class="btn_view"></td>
                                 <td><input type="button"
-                                        onclick="window.open('entry_coach_modify.php','창 이름','width=900,height=512,location=no,status=no,scrollbars=yes')"
+                                        onclick="createPopupWin('./entry_coach_modify.php',
+                                            '상세내용 수정', 1100, 900);"
                                         value="수정" class="btn_modify"></td>
-                                <td scope="col"><a href="#" onclick="" class="btn_delete">삭제</a></td>
+                                <td><a href="#" onclick="" class="btn_delete">삭제</a></td>
                             </tr>
                         </tbody>
                         <script language="JavaScript">
