@@ -8,10 +8,10 @@
                 </p>
                 <div class="accordion_content">
                     <ul>
+                        <li><a href="entry_athlete.php">선수 목록</a></li>
+                        <li><a href="entry_coach.php">코치 목록</a></li>
                         <li><a href="entry_judge.php">심판 목록</a></li>
                         <li><a href="entry_director.php">임원 목록</a></li>
-                        <li><a href="entry_coach.php">코치 목록</a></li>
-                        <li><a href="entry_athlete.php">선수 목록</a></li>
                     </ul>
                 </div>
             </li>

@@ -10,7 +10,7 @@
     <input
       type="button"
       onclick="createPopupWin('./athlete_info.php',
-            'GeeksforGeeks Website', 1100, 900);"
+            '상세내용 보기', 1100, 900);"
       value="보기"
       class="btn_view"
     />
