@@ -15,7 +15,6 @@
 
     <!-- contents 본문 내용 -->
     <div class="container">
-        <!-- <div class="contents something"> -->
         <div class="something ptop--40">
             <div class="judge_info">
                 <h3>선수 정보</h3>
