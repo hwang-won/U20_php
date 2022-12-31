@@ -8,7 +8,7 @@
     <!-- fontawesome -->
     <link rel="stylesheet" href="fontawesome/css/all.min.css" />
     <script src="/fontawesome/js/all.min.js"></script>
-    <title>U20</title>
+    <title>선수 상세 내역</title>
   </head>
 
   <body cz-shortcut-listen="true">
