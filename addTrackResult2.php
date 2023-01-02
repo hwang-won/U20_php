@@ -109,7 +109,7 @@
                                     maxlength="30" required="" readonly />
                             </td>
                             <td>
-                                <input placeholder="소속" type="text" name="division" class="input_text" value=""
+                                <input placeholder="소속" type="text" name="division" class="input_text" value="대한한국"
                                     maxlength="50" required="" />
                             </td>
                             <td>
@@ -156,7 +156,7 @@
                                     maxlength="30" required="" readonly />
                             </td>
                             <td>
-                                <input placeholder="소속" type="text" name="division" class="input_text" value=""
+                                <input placeholder="소속" type="text" name="division" class="input_text" value="대한한국"
                                     maxlength="50" required="" />
                             </td>
                             <td>
@@ -203,7 +203,7 @@
                                     maxlength="30" required="" readonly />
                             </td>
                             <td>
-                                <input placeholder="소속" type="text" name="division" class="input_text" value=""
+                                <input placeholder="소속" type="text" name="division" class="input_text" value="대한한국"
                                     maxlength="50" required="" />
                             </td>
                             <td>
@@ -250,7 +250,7 @@
                                     maxlength="30" required="" readonly />
                             </td>
                             <td>
-                                <input placeholder="소속" type="text" name="division" class="input_text" value=""
+                                <input placeholder="소속" type="text" name="division" class="input_text" value="대한한국"
                                     maxlength="50" required="" />
                             </td>
                             <td>
@@ -297,7 +297,7 @@
                                     maxlength="30" required="" readonly />
                             </td>
                             <td>
-                                <input placeholder="소속" type="text" name="division" class="input_text" value=""
+                                <input placeholder="소속" type="text" name="division" class="input_text" value="대한한국"
                                     maxlength="50" required="" />
                             </td>
                             <td>
@@ -344,7 +344,7 @@
                                     maxlength="30" required="" readonly />
                             </td>
                             <td>
-                                <input placeholder="소속" type="text" name="division" class="input_text" value=""
+                                <input placeholder="소속" type="text" name="division" class="input_text" value="대한한국"
                                     maxlength="50" required="" />
                             </td>
                             <td>
@@ -391,7 +391,7 @@
                                     maxlength="30" required="" readonly />
                             </td>
                             <td>
-                                <input placeholder="소속" type="text" name="division" class="input_text" value=""
+                                <input placeholder="소속" type="text" name="division" class="input_text" value="대한한국"
                                     maxlength="50" required="" />
                             </td>
                             <td>
@@ -438,7 +438,7 @@
                                     maxlength="30" required="" readonly />
                             </td>
                             <td>
-                                <input placeholder="소속" type="text" name="division" class="input_text" value=""
+                                <input placeholder="소속" type="text" name="division" class="input_text" value="대한한국"
                                     maxlength="50" required="" />
                             </td>
                             <td>

@@ -115,107 +115,101 @@
                     <thead>
                         <tr>
                             <th onclick="sortTable(0)">날짜</th>
-                            <th onclick="sortTable(1)">종목</th>
-                            <th onclick="sortTable(2)">경기 이름</th>
-                            <th onclick="sortTable(3)">경기 라운드</th>
-                            <th onclick="sortTable(4)">선수 이름</th>
-                            <th onclick="sortTable(5)">심판 이름</th>
-                            <th onclick="sortTable(6)">기록</th>
-                            <th onclick="sortTable(7)">기록 방식</th>
+                            <th onclick="sortTable(1)">경기 이름</th>
+                            <th onclick="sortTable(2)">경기 라운드</th>
+                            <th onclick="sortTable(3)">선수 이름</th>
+                            <th onclick="sortTable(4)">심판 이름</th>
+                            <th onclick="sortTable(5)">기록</th>
+                            <th onclick="sortTable(6)">기록 방식</th>
+                            <th onclick="sortTable(7)">기록 상태</th>
                             <th> </th>
                         </tr>
                     </thead>
                     <tbody>
                         <tr>
                             <td>2023-06-05</td>
-                            <td>원반던지기</td>
                             <td>원반던지기(여)</td>
                             <td>1차</td>
                             <td>김아랑</td>
                             <td>tony Kim</td>
                             <td>12.54m</td>
                             <td>수동</td>
+                            <td>Live Result</td>
                             <td><input type="button"
                                     onclick="window.open('modifyResult.php','창 이름','width=900,height=512,location=no,status=no,scrollbars=yes')"
                                     value="수정" class="btn_modify"></td>
                         </tr>
                         <tr>
                             <td>2023-06-05</td>
-                            <td>원반던지기</td>
                             <td>원반던지기(남)</td>
                             <td>1차</td>
                             <td>권산</td>
                             <td>tony Kim</td>
                             <td>12.54m</td>
                             <td>수동</td>
+                            <td>Live Result</td>
                             <td><input type="button"
                                     onclick="window.open('modifyResult.php','창 이름','width=900,height=512,location=no,status=no,scrollbars=yes')"
                                     value="수정" class="btn_modify"></td>
                         </tr>
                         <tr>
                             <td>2023-06-05</td>
-                            <td>3000M 장애물</td>
                             <td>3000M 장애물 본선</td>
                             <td>3라운드</td>
                             <td>권산</td>
                             <td>tony Kim</td>
                             <td>07:43:34</td>
                             <td>자동</td>
+                            <td>Live Result</td>
                             <td><input type="button"
                                     onclick="window.open('modifyResult.php','창 이름','width=900,height=512,location=no,status=no,scrollbars=yes')"
                                     value="수정" class="btn_modify"></td>
                         </tr>
                         <tr>
                             <td>2023-06-05</td>
-                            <td>100M</td>
                             <td>100M 결승</td>
                             <td>3라운드</td>
                             <td>권산</td>
                             <td>tony Kim</td>
                             <td>07:43:34</td>
                             <td>자동</td>
+                            <td>Live Result</td>
                             <td><input type="button"
                                     onclick="window.open('modifyResult.php','창 이름','width=900,height=512,location=no,status=no,scrollbars=yes')"
                                     value="수정" class="btn_modify"></td>
                         </tr>
                         <tr>
                             <td>2023-06-05</td>
-                            <td>100M</td>
                             <td>100M 예선</td>
                             <td>3라운드</td>
                             <td>권산</td>
                             <td>tony Kim</td>
                             <td>07:43:34</td>
                             <td>자동</td>
-                            <td><input type="button"
-                                    onclick="window.open('modifyResult.php','창 이름','width=900,height=512,location=no,status=no,scrollbars=yes')"
-                                    value="수정" class="btn_modify"></td>
+                            <td>Offical Result</td>
+                            <td></td>
                         </tr>
                         <tr>
                             <td>2023-06-05</td>
-                            <td>100M</td>
                             <td>100M 예선</td>
                             <td>3라운드</td>
                             <td>권산</td>
                             <td>tony Kim</td>
                             <td>07:43:34</td>
                             <td>자동</td>
-                            <td><input type="button"
-                                    onclick="window.open('modifyResult.php','창 이름','width=900,height=512,location=no,status=no,scrollbars=yes')"
-                                    value="수정" class="btn_modify"></td>
+                            <td>Offical Result</td>
+                            <td></td>
                         </tr>
                         <tr>
                             <td>2023-06-05</td>
-                            <td>100M</td>
                             <td>100M 예선</td>
                             <td>3라운드</td>
                             <td>권산</td>
                             <td>tony Kim</td>
                             <td>07:43:34</td>
                             <td>자동</td>
-                            <td><input type="button"
-                                    onclick="window.open('modifyResult.php','창 이름','width=900,height=512,location=no,status=no,scrollbars=yes')"
-                                    value="수정" class="btn_modify"></td>
+                            <td>Offical Result</td>
+                            <td></td>
                         </tr>
 
                     </tbody>
