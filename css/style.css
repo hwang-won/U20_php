@@ -1534,7 +1534,7 @@ table.team_table.center {
     box-sizing: content-box;
 }
 */
-.container {
+.idCard_container {
   height: 100vh;
   width: 100%;
   display: flex;
@@ -1670,18 +1670,7 @@ table.team_table.center {
   text-align: left;
   margin-top: 4rem;
 }
-.logo {
-  height: 40px;
-  width: 150px;
-  padding: 40px;
-}
-
-.logo img {
-  height: 100%;
-  width: 100%;
-  color: white;
-}
-.idCard {
+.idCard_container .idCard {
   padding-right: 20px;
 }
 

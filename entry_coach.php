@@ -195,7 +195,7 @@
                 <!-- 등록 버튼 -->
                 <div class="btn_base base_mar col_left">
                     <input class="btn_issueId btn_txt bold" type="button"
-                        onclick="window.open('athlete_issue.php','창 이름','width=900,height=512,location=no,status=no,scrollbars=yes')"
+                        onclick="createPopupWin('entry_athlete_issue.php','ID카드', 1100, 900);"
                         value="ID발급" class="btn_view">
                 </div>
                 <div class="btn_base base_mar col_right">

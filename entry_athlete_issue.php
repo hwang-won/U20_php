@@ -12,7 +12,7 @@
   </head>
   <body>
     <!-- contents 본문 내용 -->
-    <div class="container">
+    <div class="idCard_container">
       <div class="something ptop--40">
         <div class="idCard">
           <div class="front">
