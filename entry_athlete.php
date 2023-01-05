@@ -70,37 +70,40 @@
                             <div class="select_box mr10">
                                 <select class="d_select" title="참가경기" style="width: 8em;">
                                     <option value="" hidden="">참가경기</option>
-                                    <option value="" disabled="">단거리달리기</option>
+                                    <option value="" disabled>단거리달리기</option>
                                     <option value="1">100M</option>
                                     <option value="2">200M</option>
                                     <option value="3">400M</option>
-                                    <option value="" disabled="">중/장거리</option>
+                                    <option value="" disabled>중/장거리</option>
                                     <option value="4">800M</option>
                                     <option value="5">1500M</option>
-                                    <option value="6">5000M</option>
-                                    <option value="7">10000M</option>
-                                    <option value="8">3000M 장애물</option>
-                                    <option value="" disabled="">허들달리기</option>
-                                    <option value="9">110M 허들</option>
-                                    <option value="10">400M 허들</option>
-                                    <option value="" disabled="">점프경기</option>
-                                    <option value="11">높이뛰기</option>
-                                    <option value="12">장대높이뛰기</option>
-                                    <option value="13">멀리뛰기</option>
-                                    <option value="14">삼단뛰기</option>
-                                    <option value="" disabled="">던지기</option>
-                                    <option value="15">투포환</option>
-                                    <option value="16">원반던지기</option>
-                                    <option value="17">해머던지기</option>
-                                    <option value="18">창던지기</option>
-                                    <option value="" disabled="">종합</option>
-                                    <option value="19">10종 경기</option>
-                                    <option value="" disabled="">경보</option>
-                                    <option value="20">10000M 경보</option>
-                                    <option value="" disabled="">릴레이</option>
-                                    <option value="21">4x100M 릴레이</option>
-                                    <option value="22">4x400M 릴레이</option>
-                                    <option value="23">4x400M 혼성</option>
+                                    <option value="6">3000M</option>
+                                    <option value="7">5000M</option>
+                                    <option value="8">10000M</option>
+                                    <option value="9">3000M 장애물</option>
+                                    <option value="" disabled>허들달리기</option>
+                                    <option value="10">100M 허들</option>
+                                    <option value="11">110M 허들</option>
+                                    <option value="12">400M 허들</option>
+                                    <option value="" disabled>점프경기</option>
+                                    <option value="13">높이뛰기</option>
+                                    <option value="14">장대높이뛰기</option>
+                                    <option value="15">멀리뛰기</option>
+                                    <option value="16">삼단뛰기</option>
+                                    <option value="" disabled>던지기</option>
+                                    <option value="17">투포환</option>
+                                    <option value="18">원반던지기</option>
+                                    <option value="19">해머던지기</option>
+                                    <option value="20">창던지기</option>
+                                    <option value="" disabled>종합</option>
+                                    <option value="21">7종 경기</option>
+                                    <option value="22">10종 경기</option>
+                                    <option value="" disabled>경보</option>
+                                    <option value="23">10000M 경보</option>
+                                    <option value="" disabled>릴레이</option>
+                                    <option value="24">4x100M 릴레이</option>
+                                    <option value="25">4x400M 릴레이</option>
+                                    <option value="26">4x400M 혼성</option>
                                 </select>
                             </div>
                             <div class="search" style="width: 15em;">
@@ -181,7 +184,7 @@
                 <!-- 등록 버튼 -->
                 <div class="btn_base base_mar col_left">
                     <input class="btn_issueId btn_txt bold" type="button"
-                        onclick="window.open('athlete_issue.php','창 이름','width=900,height=512,location=no,status=no,scrollbars=yes')"
+                        onclick="createPopupWin('entry_athlete_issue.php','ID카드', 1100, 900);"
                         value="ID발급" class="btn_view">
                 </div>
                 <div class="btn_base base_mar col_right">
