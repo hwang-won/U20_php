@@ -422,6 +422,8 @@
                             </thead>
 
                             <tbody>
+                                <!-- id값을 사용하여 임시 방편으로 메달 개수 계산함 -->
+                                <!-- 실제로는 join을 통해 긁어올 것 -->
                                 <?php
                                     include_once 'db_con.php';
                                     $sql = "SELECT * FROM list_athlete ORDER BY list_athlete.athlete_id ASC;";

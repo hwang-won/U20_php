@@ -34,21 +34,18 @@
             <div class="country_table space">
                 <div class="team_tabs-content tab">
                     <h2 class="country_h2">심판진</h2>
-					<!-- 엑셀 출력 버튼 -->
-					<div class="btn_base base_mar col_left">
-						<input type="button" onclick="" class="btn_excel bold" value="엑셀 출력">
-					</div>
-					<!-- 엑셀 입력 버튼 -->
-					<form action="" enctype="multipart/form-data">
-						<input type="file" id="upload_judge" hidden />
-                        <label for="upload_judge"
-							class="btn_excel label_for_excel_import bold float_l">엑셀
-							입력</label>
-					</form>
+                    <!-- 엑셀 출력 버튼 -->
+                    <div class="btn_base base_mar col_left">
+                        <input type="button" onclick="" class="btn_excel bold" value="엑셀 출력">
+                    </div>
+                    <!-- 엑셀 입력 버튼 -->
+                    <form action="" enctype="multipart/form-data">
+                        <input type="file" id="upload_judge" hidden />
+                        <label for="upload_judge" class="btn_excel label_for_excel_import bold float_l">엑셀
+                            입력</label>
+                    </form>
                     <!-- 검색 -->
-                    <form action="" enctype="multipart/form-data" class="searchForm" name="judge_searchForm"
-                        method="post"
-                        style="display: flex; flex-wrap: wrap; align-items: center; justify-content: flex-end;">
+                    <form action="" enctype="multipart/form-data" class="searchForm" name="judge_searchForm" method="post" style="display: flex; flex-wrap: wrap; align-items: center; justify-content: flex-end;">
                         <div class="selectArea float_r">
                             <div class="select_box mr10">
                                 <select class="d_select" title="국가" style="width: 8em;">
@@ -120,8 +117,7 @@
                                 </select>
                             </div>
                             <div class="search" style="width: 15em;">
-                                <input type="text" id="search_judge" class="word" name="search_judge"
-                                    placeholder="이름을 입력해주세요" maxlength="30">
+                                <input type="text" id="search_judge" class="word" name="search_judge" placeholder="이름을 입력해주세요" maxlength="30">
                                 <button type="submit" class="btn_search" title="검색"></a>
                             </div>
                         </div>
@@ -129,20 +125,6 @@
                     <!-- 심판 테이블 -->
                     <table class="table table-hover team_table display" id="judge_table">
                         <colgroup>
-                            <!--
-                                <col width="5%">
-                                <col width="8%">
-                                <col width="7%">
-                                <col width="10%">
-                                <col width="8%">
-                                <col width="10%">
-                                <col width="5%">
-                                <col width="7%">
-                                <col width="13%">
-                                <col width="10%">
-                                <col width="10%">
-                                <col width="10%">
-                                -->
                             <col width="auto">
                             <col width="auto">
                             <col width="auto">
@@ -190,14 +172,10 @@
                                 <td class="judge_age">25</td>
                                 <td class="judge_role">주 심판</td>
                                 <td class="judge_attendent_game">100m, 200m</td>
-                                <td><input type="button"
-                                        onclick="createPopupWin('./entry_judge_info.php',
-                                            '상세내용 보기', 1100, 900);"
-                                        value="보기" class="btn_view"></td>
-                                <td><input type="button"
-                                        onclick="createPopupWin('./entry_judge_modify.php',
-                                            '상세내용 수정', 1100, 900);"
-                                        value="수정" class="btn_modify"></td>
+                                <td><input type="button" onclick="createPopupWin('./entry_judge_info.php',
+                                            '상세내용 보기', 1100, 900);" value="보기" class="btn_view"></td>
+                                <td><input type="button" onclick="createPopupWin('./entry_judge_modify.php',
+                                            '상세내용 수정', 1100, 900);" value="수정" class="btn_modify"></td>
                                 <td><a href="#" onclick="" class="btn_delete">삭제</a></td>
                             </tr>
                         </tbody>
@@ -205,14 +183,10 @@
                 </div>
                 <!-- 등록 버튼 -->
                 <div class="btn_base base_mar col_left">
-                    <input class="btn_issueId btn_txt bold" type="button"
-                        onclick="createPopupWin('entry_athlete_issue.php','ID카드', 1100, 900);"
-                        value="ID발급" class="btn_view">
+                    <input class="btn_issueId btn_txt bold" type="button" onclick="createPopupWin('entry_athlete_issue.php','ID카드', 1100, 900);" value="ID발급" class="btn_view">
                 </div>
                 <div class="btn_base base_mar col_right">
-                    <input class="btn_add btn_txt bold" type="button"
-                        onclick="window.open('entry_judge_input.php','창 이름','width=900,height=512,location=no,status=no,scrollbars=yes')"
-                        value="등록" class="btn_view">
+                    <input class="btn_add btn_txt bold" type="button" onclick="window.open('entry_judge_input.php','창 이름','width=900,height=512,location=no,status=no,scrollbars=yes')" value="등록" class="btn_view">
                 </div>
             </div>
             <!-- 심판 페이징 
@@ -237,10 +211,10 @@
                 -->
         </div>
     </div>
-    
+
     <!-- footer -->
     <?php include 'footer.php'; ?>
-    
+
     <script src="js/main.js"></script>
 </body>
 
