@@ -6,9 +6,14 @@ function trackFinal(obj) {
 }
 //필드경기 포맷
 function field1Format(obj) {
-  obj.value = comma(uncomma(obj.value));
-  fieldFinal(obj);
-  rankcal();
+  if ((obj.value == "-" || obj.value == "X") && obj.value.length == 1) {
+    // 실패한 경우
+    rankcal();
+  } else {
+    obj.value = comma(uncomma(obj.value));
+    fieldFinal(obj);
+    rankcal();
+  }
 }
 //멀리뛰기,삼단뛰기 전용 포맷
 function field2Format(obj) {
@@ -20,14 +25,17 @@ function field2Format(obj) {
 function windFormat(obj) {
   obj.value = comma(uncomma1(obj.value));
 }
-
+//높이뛰기 높이 전용
+function highFormat(obj) {
+  obj.value = comma(uncomma(obj.value));
+}
 function comma(str) {
   str = String(str);
-   if (str.length < 5) {
-     return str.replace(/(\B)(?=(?:\d{2})+(?!\d))/g, "$1.");
-   } else {
-     return str.replace(/(\d+)(\d{2})(\d{2})/g, "$1:$2.$3");
-   }
+  if (str.length < 5) {
+    return str.replace(/(\B)(?=(?:\d{2})+(?!\d))/g, "$1.");
+  } else {
+    return str.replace(/(\d+)(\d{2})(\d{2})/g, "$1:$2.$3");
+  }
 }
 
 function uncomma(str) {

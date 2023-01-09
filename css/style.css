@@ -2024,6 +2024,15 @@ header > div ul.navbar > li {
   font-weight: var(--weight-bold);
 }
 
+.input_trial {
+  position: relative;
+  display: block;
+  width: 100%;
+  font-size: var(--font-small);
+  font-weight: var(--weight-bold);
+  text-align: center;
+}
+
 .signup_submit {
   padding-top: 40px;
   margin-bottom: 40px;
@@ -2299,6 +2308,22 @@ table.tbl_t02 td:first-child {
   right: 135px;
 }
 
+/*높이뛰기 구분용*/
+#col1 {
+  border-top: 1px solid #ddd;
+}
+#col1 > td:nth-child(n + 4):nth-child(-n + 16) {
+  border-left: 1px dotted #ddd;
+}
+#col2 > td:nth-child(-n + 12) {
+  border-left: 1px dotted #ddd;
+}
+#col1 > th:nth-child(n + 4):nth-child(-n + 16) {
+  border-left: 1px dotted #ddd;
+}
+#col2 > th:nth-child(-n + 12) {
+  border-left: 1px dotted #ddd;
+}
 /* log.html */
 /* user.html */
 .table_wrap {
