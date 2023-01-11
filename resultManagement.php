@@ -214,11 +214,11 @@
 
                     </tbody>
                 </table>
-                <div class="btn_base base_mar col_right">
+                <!-- <div class="btn_base base_mar col_right">
                     <input type="button"
                         onclick="window.open('addresult.php','창 이름','width=900,height=512,location=no,status=no,scrollbars=yes')"
                         class="btn_add bold" value="등록">
-                </div>
+                </div> -->
             </div>
             <div class="page_wrap">
                 <div class="page_nation">
