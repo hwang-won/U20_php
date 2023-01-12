@@ -2164,19 +2164,6 @@ header>div ul.navbar>li {
     width: 200px;
     color: var(--color-dark-grey);
     font-weight: var(--weight-regular);
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 10px;
-}
-
-.form_check label:nth-child(2) {
-    position: absolute;
-    left: 45%;
-}
-
-.form_check>label {
-    color: var(--color-dark-grey);
-    font-weight: var(--weight-regular);
 }
 
 .form_check>label>span:hover {
@@ -2185,6 +2172,35 @@ header>div ul.navbar>li {
 
 .form_check label:nth-child(2) {
     margin-left: 40px;
+}
+
+/* log.html */
+/* user.html */
+.table_wrap {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 0;
+}
+
+.table_user tr td {
+    padding: 4px 10px;
+}
+
+.table_user tr td>span {
+    vertical-align: middle;
+    padding: 3px;
+}
+
+.table_auths div {
+    display: flex;
+    margin-bottom: 3px;
+}
+
+.table_auths div>label {
+    width: 20%;
+    color: var(--color-dark-grey);
+    font-weight: var(--weight-regular);
 }
 
 /* checkbox 꾸미기 */
@@ -2335,6 +2351,19 @@ header>div ul.navbar>li {
     color: var(--color-blue);
     white-space: nowrap;
     text-overflow: ellipsis;
+}
+
+.mypage_box_auth {
+    display: block;
+    position: relative;
+    padding: 30px 10px 10px 0;
+    color: var(--color-dark-grey);
+    font-weight: var(--weight-bold);
+    border-bottom: 1px solid var(--color-light-white);
+}
+
+.mypage_box_auth .table_auths {
+    margin-top: 15px;
 }
 
 /* change_pw.html */
@@ -2533,25 +2562,6 @@ table.tbl_t02 td:first-child {
 #col2>th:nth-child(-n + 12) {
     border-left: 1px dotted #ddd;
 }
-
-/* log.html */
-/* user.html */
-.table_wrap {
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    padding: 5px 0;
-}
-
-.table_user tr td {
-    padding: 4px 10px;
-}
-
-.table_user tr td>span {
-    vertical-align: middle;
-    padding: 3px;
-}
-
 
 /* footer */
 footer {
