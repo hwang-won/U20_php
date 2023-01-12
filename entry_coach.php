@@ -123,19 +123,19 @@
                     <!-- 코치 테이블 -->
                     <table class="table table-hover team_table" id="coach_table">
                         <colgroup>
-                            <col width="auto">
-                            <col width="auto">
-                            <col width="auto">
-                            <col width="auto">
-                            <col width="auto">
-                            <col width="auto">
-                            <col width="auto">
-                            <col width="auto">
-                            <col width="auto">
-                            <col width="auto">
-                            <col width="auto">
-                            <col width="auto">
-                            <col width="auto">
+                            <col class="col_check">
+                            <col class="col_index">
+                            <col class="col_name">
+                            <col class="col_country">
+                            <col class="col_division">
+                            <col class="col_gender">
+                            <col class="col_birth">
+                            <col class="col_age">
+                            <col class="col_duty">
+                            <col class="col_schedule">
+                            <col class="col_view">
+                            <col class="col_modify">
+                            <col class="col_delete">
                         </colgroup>
                         <thead>
                             <tr>
@@ -151,7 +151,7 @@
                                 <th scope="col">나이</th>
                                 <th scope="col">직무</th>
                                 <th scope="col">참가경기</th>
-                                <th scope="col">상세보기</th>
+                                <th scope="col">내용</th>
                                 <th scope="col">수정</th>
                                 <th scope="col">삭제</th>
                             </tr>
@@ -166,7 +166,7 @@
                                 <td scope="col">한국</td>
                                 <td scope="col">팀 아누</td>
                                 <td scope="col">남</td>
-                                <td scope="col">1998년 11월 15일</td>
+                                <td scope="col">1998.11.15</td>
                                 <td scope="col">25</td>
                                 <td scope="col">헤드 코치</td>
                                 <td scope="col">100m</td>
