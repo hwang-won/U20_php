@@ -73,9 +73,9 @@
                             <col style="width: 15%;" />
                             <col style="width: 15%" />
                             <col style="width: 13%" />
-                            <col style="width: 15%" />
+                            <col style="width: 20%" />
                             <col style="width: 13%" />
-                            <col style="width: 15%" />
+                            <col style="width: 10%" />
                         </colgroup>
                         <tr>
                             <th style="background: none">등수</th>
@@ -116,10 +116,28 @@
                                 <input placeholder="경기 통과 여부" type="text" name="gamepass" class="input_text" value=""
                                     maxlength="50" required="" />
                             </td>
-                            <td>
+                            <td >
+                                <div style="display:inline-flex; align-items: center;">
+                                <div style="border-right:1px solid #ddd; width:50%;">
                                 <input placeholder="경기 결과" type="text" name="gameresult" id="result" class="input_text"
                                     value="" maxlength="8" required="" onkeyup="trackFinal(this)"
-                                    style="float: left; width: auto; padding-right: 5px" />
+                                    style="float: left; width: 80px; padding-right: 5px; margin-bottom: 10px;" />
+                                <input placeholder="경기 결과" type="text" name="gameresult" id="result" class="input_text"
+                                    value="" maxlength="8" required="" onkeyup="trackFinal(this)"
+                                    style="float: left; width: 80px; padding-right: 5px; margin-bottom: 10px;" />
+                                <input placeholder="경기 결과" type="text" name="gameresult" id="result" class="input_text"
+                                    value="" maxlength="8" required="" onkeyup="trackFinal(this)"
+                                    style="float: left; width: 80px; padding-right: 5px; margin-bottom: 10px;" />
+                                <input placeholder="경기 결과" type="text" name="gameresult" id="result" class="input_text"
+                                    value="" maxlength="8" required="" onkeyup="trackFinal(this)"
+                                    style="float: left; width: 80px; padding-right: 5px" />
+                                </div>
+                                <div style="width:50%; padding-left:10px">
+                                <input placeholder="경기 결과" type="text" name="gameresult" id="result" class="input_text"
+                                    value="" maxlength="8" required="" onkeyup="trackFinal(this)"
+                                    style="float: left; width: 80px; padding-right: 5px" />
+                                </div>
+                                </div>
                             </td>
                             <td>
                                 <input placeholder="비고" type="text" name="bigo" class="input_text" value=""
