@@ -2,27 +2,12 @@
   // See https://go.microsoft.com/fwlink/?LinkId=733558
   // for the documentation about the tasks.json format
 
-  "version": "2.0.0",
+  "version": "0.1.0",
   "command": "chrome",
   "windows": {
     "command": "C:/Program Files/Google/Chrome/Application/chrome.exe"
   },
-"args": [
-    "localhost/Dev/U20/"
-],
-"tasks": [
-    {
-        "label": "C:/Program Files/Google/Chrome/Application/chrome.exe",
-        "args": [
-            "localhost/Dev/U20/"
-        ],
-        "problemMatcher": [],
-        "group": {
-            "_id": "build",
-            "isDefault": false
-        }
-    }
-]
+  "args": ["localhost/Dev/U20/"]
 
   // "version": "2.0.0",
   // "tasks": [
