@@ -72,7 +72,65 @@
                             <td>1</td>
                             <td>w1683111</td>
                             <td>황근원</td>
-                            <td>master</td>
+                            <td>
+                                <table class="table_user"> 
+                                    <tr>
+                                        <td>참가자관리</td>
+                                        <td><input type="checkbox"  disabled><span>읽기</span></td>
+                                        <td><input type="checkbox" checked disabled><span>수정</span></td>
+                                        <td><input type="checkbox"  disabled><span>삭제</span></td>
+                                        <td><input type="checkbox"  disabled><span>등록</span></td>
+                                    </tr>
+                                    <tr>
+                                        <td>경기관리
+                                        </td>
+                                        <td>
+                                        </td>
+                                        <td>
+                                        </td>
+                                        <td>
+                                        </td>
+                                        <td>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>기록관리
+                                        </td>
+                                        <td>
+                                        </td>
+                                        <td>
+                                        </td>
+                                        <td>
+                                        </td>
+                                        <td>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>통계관리
+                                        </td>
+                                        <td>
+                                        </td>
+                                        <td>
+                                        </td>
+                                        <td>
+                                        </td>
+                                        <td>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>계정관리
+                                        </td>
+                                        <td>
+                                        </td>
+                                        <td>
+                                        </td>
+                                        <td>
+                                        </td>
+                                        <td>
+                                        </td>
+                                    </tr>
+                                    </table>
+                                </td>
                             <td>
                                 <a href="change_auth.php">변경</a>
                             </td>

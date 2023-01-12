@@ -2155,7 +2155,7 @@ header>div ul.navbar>li {
 }
 
 .form_check {
-    <<<<<<< HEAD display: flex;
+    display: flex;
     justify-content: left;
     margin-bottom: 10px;
 }
@@ -2164,7 +2164,7 @@ header>div ul.navbar>li {
     width: 200px;
     color: var(--color-dark-grey);
     font-weight: var(--weight-regular);
-    =======display: flex;
+    display: flex;
     justify-content: space-between;
     margin-bottom: 10px;
 }
@@ -2177,7 +2177,6 @@ header>div ul.navbar>li {
 .form_check>label {
     color: var(--color-dark-grey);
     font-weight: var(--weight-regular);
-    >>>>>>>41076f220f83f47ba548079ae275a781eb7e9c9e
 }
 
 .form_check>label>span:hover {
