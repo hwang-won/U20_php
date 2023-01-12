@@ -2543,6 +2543,16 @@ table.tbl_t02 td:first-child {
     padding: 5px 0;
 }
 
+.table_user tr td {
+    padding: 4px 10px;
+}
+
+.table_user tr td>span {
+    vertical-align: middle;
+    padding: 3px;
+}
+
+
 /* footer */
 footer {
     position: absolute;
