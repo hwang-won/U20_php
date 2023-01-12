@@ -17,11 +17,6 @@
 </head>
 
 <body>
-    <!-- header -->
-    <?php include 'header.php' ?>
-
-    <!-- sidebar -->
-    <?php include 'sidebar.php' ?>
 
     <!-- contents 본문 내용 -->
     <div class="container">

@@ -33,20 +33,17 @@
             <div class="country_table space">
                 <div class="team_tabs-content tab">
                     <h2 class="country_h2">코치진</h2>
-					<!-- 엑셀 출력 버튼 -->
-					<div class="btn_base base_mar col_left">
-						<input type="button" onclick="" class="btn_excel bold" value="엑셀 출력">
-					</div>
-					<!-- 엑셀 입력 버튼 -->
-					<form action="" enctype="multipart/form-data">
-						<input type="file" id="upload_judge" hidden /><label for="upload_judge"
-							class="btn_excel label_for_excel_import bold float_l">엑셀
-							입력</label>
-					</form>
+                    <!-- 엑셀 출력 버튼 -->
+                    <div class="btn_base base_mar col_left">
+                        <input type="button" onclick="" class="btn_excel bold" value="엑셀 출력">
+                    </div>
+                    <!-- 엑셀 입력 버튼 -->
+                    <form action="" enctype="multipart/form-data">
+                        <input type="file" id="upload_judge" hidden /><label for="upload_judge" class="btn_excel label_for_excel_import bold float_l">엑셀
+                            입력</label>
+                    </form>
                     <!-- 검색 -->
-                    <form action="" enctype="multipart/form-data" class="searchForm" name="judge_searchForm"
-                        method="post"
-                        style="display: flex; flex-wrap: wrap; align-items: center; justify-content: flex-end;">
+                    <form action="" enctype="multipart/form-data" class="searchForm" name="judge_searchForm" method="post" style="display: flex; flex-wrap: wrap; align-items: center; justify-content: flex-end;">
                         <div class="selectArea float_r">
                             <div class="select_box mr10">
                                 <select class="d_select" title="국가" style="width: 8em;">
@@ -55,13 +52,6 @@
                                     <option value="2">일본</option>
                                     <option value="3">사우디 아라비아</option>
                                     <option value="4">인도</option>
-                                </select>
-                            </div>
-                            <div class="select_box mr10">
-                                <select class="d_select" title="지역" style="width: 8em;">
-                                    <option value="" hidden="">지역</option>
-                                    <option value="1">서울</option>
-                                    <option value="2">도쿄</option>
                                 </select>
                             </div>
                             <div class="select_box mr10">
@@ -88,42 +78,44 @@
                             <div class="select_box mr10">
                                 <select class="d_select" title="참가경기" style="width: 8em;">
                                     <option value="" hidden="">참가경기</option>
-                                    <option value="" disabled="">단거리달리기</option>
+                                    <option value="" disabled>단거리달리기</option>
                                     <option value="1">100M</option>
                                     <option value="2">200M</option>
                                     <option value="3">400M</option>
-                                    <option value="" disabled="">중/장거리</option>
+                                    <option value="" disabled>중/장거리</option>
                                     <option value="4">800M</option>
                                     <option value="5">1500M</option>
-                                    <option value="6">5000M</option>
-                                    <option value="7">10000M</option>
-                                    <option value="8">3000M 장애물</option>
-                                    <option value="" disabled="">허들달리기</option>
-                                    <option value="9">110M 허들</option>
-                                    <option value="10">400M 허들</option>
-                                    <option value="" disabled="">점프경기</option>
-                                    <option value="11">높이뛰기</option>
-                                    <option value="12">장대높이뛰기</option>
-                                    <option value="13">멀리뛰기</option>
-                                    <option value="14">삼단뛰기</option>
-                                    <option value="" disabled="">던지기</option>
-                                    <option value="15">투포환</option>
-                                    <option value="16">원반던지기</option>
-                                    <option value="17">해머던지기</option>
-                                    <option value="18">창던지기</option>
-                                    <option value="" disabled="">종합</option>
-                                    <option value="19">10종 경기</option>
-                                    <option value="" disabled="">경보</option>
-                                    <option value="20">10000M 경보</option>
-                                    <option value="" disabled="">릴레이</option>
-                                    <option value="21">4x100M 릴레이</option>
-                                    <option value="22">4x400M 릴레이</option>
-                                    <option value="23">4x400M 혼성</option>
+                                    <option value="6">3000M</option>
+                                    <option value="7">5000M</option>
+                                    <option value="8">10000M</option>
+                                    <option value="9">3000M 장애물</option>
+                                    <option value="" disabled>허들달리기</option>
+                                    <option value="10">100M 허들</option>
+                                    <option value="11">110M 허들</option>
+                                    <option value="12">400M 허들</option>
+                                    <option value="" disabled>점프경기</option>
+                                    <option value="13">높이뛰기</option>
+                                    <option value="14">장대높이뛰기</option>
+                                    <option value="15">멀리뛰기</option>
+                                    <option value="16">삼단뛰기</option>
+                                    <option value="" disabled>던지기</option>
+                                    <option value="17">투포환</option>
+                                    <option value="18">원반던지기</option>
+                                    <option value="19">해머던지기</option>
+                                    <option value="20">창던지기</option>
+                                    <option value="" disabled>종합</option>
+                                    <option value="21">7종 경기</option>
+                                    <option value="22">10종 경기</option>
+                                    <option value="" disabled>경보</option>
+                                    <option value="23">10000M 경보</option>
+                                    <option value="" disabled>릴레이</option>
+                                    <option value="24">4x100M 릴레이</option>
+                                    <option value="25">4x400M 릴레이</option>
+                                    <option value="26">4x400M 혼성</option>
                                 </select>
                             </div>
                             <div class="search" style="width: 15em;">
-                                <input type="text" id="search_judge" class="word" name="search_judge"
-                                    placeholder="검색어를 입력해주세요" maxlength="30">
+                                <input type="text" id="search_judge" class="word" name="search_judge" placeholder="이름을 입력해주세요" maxlength="30">
                                 <button type="submit" class="btn_search" title="검색"></a>
                             </div>
                         </div>
@@ -131,82 +123,76 @@
                     <!-- 코치 테이블 -->
                     <table class="table table-hover team_table" id="coach_table">
                         <colgroup>
-                            <col width="auto">
-                            <col width="auto">
-                            <col width="auto">
-                            <col width="auto">
-                            <col width="auto">
-                            <col width="auto">
-                            <col width="auto">
-                            <col width="auto">
-                            <col width="auto">
-                            <col width="auto">
-                            <col width="auto">
+                            <col class="col_check">
+                            <col class="col_index">
+                            <col class="col_name">
+                            <col class="col_country">
+                            <col class="col_division">
+                            <col class="col_gender">
+                            <col class="col_birth">
+                            <col class="col_age">
+                            <col class="col_duty">
+                            <col class="col_schedule">
+                            <col class="col_view">
+                            <col class="col_modify">
+                            <col class="col_delete">
                         </colgroup>
                         <thead>
                             <tr>
+                                <th scope="col">
+                                    <input type="checkbox" name="checkAthlete-all" id="checkAthlete-all" onclick="toggle(this)">
+                                </th>
                                 <th scope="col">번호</th>
                                 <th scope="col">이름</th>
                                 <th scope="col">국가</th>
-                                <th scope="col">지역</th>
                                 <th scope="col">소속</th>
                                 <th scope="col">성별</th>
                                 <th scope="col">생년월일</th>
                                 <th scope="col">나이</th>
                                 <th scope="col">직무</th>
                                 <th scope="col">참가경기</th>
-                                <th scope="col">상세보기</th>
+                                <th scope="col">내용</th>
                                 <th scope="col">수정</th>
                                 <th scope="col">삭제</th>
                             </tr>
                         </thead>
                         <tbody>
                             <tr>
+                                <td scope="col">
+                                    <input type="checkbox" class="entry_check" id="checkAthlete" name="checkAthlete">
+                                </td>
                                 <td scope="col">1</td>
                                 <td scope="col">고길동</td>
                                 <td scope="col">한국</td>
-                                <td scope="col">서울</td>
                                 <td scope="col">팀 아누</td>
                                 <td scope="col">남</td>
-                                <td scope="col">1998년 11월 15일</td>
+                                <td scope="col">1998.11.15</td>
                                 <td scope="col">25</td>
                                 <td scope="col">헤드 코치</td>
                                 <td scope="col">100m</td>
-                                <td><input type="button"
-                                        onclick="window.open('coach_info.php','창 이름','width=900,height=512,location=no,status=no,scrollbars=yes')"
-                                        value="보기" class="btn_view"></td>
-                                <td><input type="button"
-                                        onclick="window.open('coach_modify.php','창 이름','width=900,height=512,location=no,status=no,scrollbars=yes')"
-                                        value="수정" class="btn_modify"></td>
-                                <td scope="col"><a href="#" onclick="" class="btn_delete">삭제</a></td>
-                            </tr>
-                            <tr>
-                                <td scope="col">2</td>
-                                <td scope="col">고길동</td>
-                                <td scope="col">한국</td>
-                                <td scope="col">서울</td>
-                                <td scope="col">팀 아누</td>
-                                <td scope="col">남</td>
-                                <td scope="col">1998년 11월 15일</td>
-                                <td scope="col">25</td>
-                                <td scope="col">헤드 코치</td>
-                                <td scope="col">100m</td>
-                                <td><input type="button"
-                                        onclick="window.open('coach_info.php','창 이름','width=900,height=512,location=no,status=no,scrollbars=yes')"
-                                        value="보기" class="btn_view"></td>
-                                <td><input type="button"
-                                        onclick="window.open('coach_modify.php','창 이름','width=900,height=512,location=no,status=no,scrollbars=yes')"
-                                        value="수정" class="btn_modify"></td>
-                                <td scope="col"><a href="#" onclick="" class="btn_delete">삭제</a></td>
+                                <td><input type="button" onclick="createPopupWin('./entry_coach_info.php',
+                                            '상세내용 보기', 1100, 900);" value="보기" class="btn_view"></td>
+                                <td><input type="button" onclick="createPopupWin('./entry_coach_modify.php',
+                                            '상세내용 수정', 1100, 900);" value="수정" class="btn_modify"></td>
+                                <td><input type="button" onclick="" class="btn_delete" value="삭제"></td>
                             </tr>
                         </tbody>
+                        <script language="JavaScript">
+                            function toggle(box) {
+                                var checkboxes = document.querySelectorAll('#entry_check')
+                                for (var i = 0, n = checkboxes.length; i < n; i++) {
+                                    checkboxes[i].checked = box.checked;
+                                }
+                            };
+                        </script>
                     </table>
                 </div>
                 <!-- 등록 버튼 -->
+                <div class="btn_base base_mar col_left">
+                    <input class="btn_issueId btn_txt bold" type="button" onclick="createPopupWin('entry_athlete_issue.php','ID카드', 1100, 900);" value="ID발급" class="btn_view">
+                </div>
                 <div class="btn_base base_mar col_right">
-                    <input class="btn_add btn_txt bold" type="button"
-                        onclick="window.open('coach_input.php','창 이름','width=900,height=512,location=no,status=no,scrollbars=yes')"
-                        value="등록" class="btn_view">
+                    <input class="btn_add btn_txt bold" type="button" onclick="window.open('entry_coach_input.php','창 이름','width=900,height=512,location=no,status=no,scrollbars=yes')" value="등록" class="btn_view">
                 </div>
             </div>
             <!-- 코치 페이징

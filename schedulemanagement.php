@@ -15,11 +15,11 @@
 </head>
 
 <body>
-    <!-- header -->
-    <?php include 'header.php' ?>
+  <!-- header -->
+  <?php include 'header.php' ?>
 
-    <!-- sidebar -->
-    <?php include 'sidebar.php' ?>
+  <!-- sidebar -->
+  <?php include 'sidebar.php' ?>
 
     <!-- contents 본문 내용 -->
     <div class="container">
@@ -126,36 +126,41 @@
                                 <th colspan="2" scope="col">경기 이름</th>
                                 <th colspan="2" scope="col">경기 성별</th>
                                 <th colspan="2" scope="col">경기 라운드</th>
-                                <th colspan="2" scope="col">경기 장소</th>
+                                <th colspan="3" scope="col">경기 장소</th>
                                 <th colspan="3" scope="col">
                                     경기 시작 시간
                                 </th>
-                                <th colspan="3" scope="col">
-                                    경기 마감 시간
-                                </th>
+
                                 <th colspan="3" scope="col">
                                     경기진행 상태
                                 </th>
                                 <th colspan="3" scope="col">경기 날짜</th>
+                                <th colspan="3" scope="col">
+
+                                </th>
+                                <th colspan="2"></th>
                             </tr>
                         </thead>
                         <tbody>
                             <tr>
-                                <td scope="col">0</td>
+                                <td >0</td>
                                 <td colspan="2" scope="col">트랙경기</td>
                                 <td colspan="2" scope="col">100m</td>
                                 <td colspan="2" scope="col">남</td>
                                 <td colspan="2" scope="col">1</td>
-                                <td colspan="2" scope="col">중앙 트랙</td>
+                                <td colspan="3" scope="col">중앙 트랙</td>
                                 <td colspan="3" colspan="2" scope="col">
                                     10:30
                                 </td>
-                                <td colspan="3" colspan="2" scope="col">
-                                    11:30
-                                </td>
+
                                 <td colspan="3" scope="col">X</td>
                                 <td colspan="3" scope="col">11-27</td>
-
+                                <td colspan="3" colspan="2" scope="col">
+                                  <a class="btn_modify" href='newschedule_click.html' target='_blank'>상세 정보</a>
+                                </td>
+                                <td colspan="2"><input type="button"
+                                          onclick="window.open('newschedule.html','창 이름','width=900,height=512,location=no,status=no,scrollbars=yes')"
+                                          value="수정" class="btn_modify"></td>
                             <tr>
                                 <td scope="col">1</td>
                                 <td colspan="2" scope="col">
@@ -166,19 +171,22 @@
                                 </td>
                                 <td colspan="2" scope="col">남</td>
                                 <td colspan="2" scope="col">1</td>
-                                <td colspan="2" scope="col">
+                                <td colspan="3" scope="col">
                                     중앙 트랙
                                 </td>
                                 <td colspan="3" colspan="2" scope="col">
                                     11:30
                                 </td>
-                                <td colspan="3" colspan="2" scope="col">
-                                    12:30
-                                </td>
                                 <td colspan="3" scope="col">X</td>
                                 <td colspan="3" scope="col">
                                     11-27
                                 </td>
+                                <td colspan="3" colspan="2" scope="col">
+                                  <a class="btn_modify" href='newschedule_click.html' target='_blank'>상세 정보</a>
+                                </td>
+                                <td colspan="2"><input type="button"
+                                          onclick="window.open('newschedule.html','창 이름','width=900,height=512,location=no,status=no,scrollbars=yes')"
+                                          value="수정" class="btn_modify"></td>
                             </tr>
 
                             </tr>
@@ -187,7 +195,7 @@
                     <div class="selectArea float_r">
                         <div class="btn_base base_mar col_right">
                             <input class="btn_add btn_txt bold" type="button"
-                                onclick="window.open('newschedule.php','창 이름','width=900,height=512,location=no,status=no,scrollbars=yes')"
+                                onclick="window.open('newschedule.html','창 이름','width=900,height=512,location=no,status=no,scrollbars=yes')"
                                 value="등록" class="btn_view">
                         </div>
                         <colgroup>
@@ -224,8 +232,12 @@
     </div>
 
     <!-- footer -->
-    <?php include 'footer.php'; ?>
-    
+    <footer>
+        <p class="footer_text">
+            Copyright © 2022, 20th Asian U20 Athletics Championships
+            Yecheon. All rights reserved.
+        </p>
+    </footer>
     <script src="js/main.js"></script>
 </body>
 

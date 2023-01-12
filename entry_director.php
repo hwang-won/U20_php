@@ -82,42 +82,45 @@
                             <div class="select_box mr10">
                                 <select class="d_select" title="참가경기" style="width: 8em;">
                                     <option value="" hidden="">참가경기</option>
-                                    <option value="" disabled="">단거리달리기</option>
+                                    <option value="" disabled>단거리달리기</option>
                                     <option value="1">100M</option>
                                     <option value="2">200M</option>
                                     <option value="3">400M</option>
-                                    <option value="" disabled="">중/장거리</option>
+                                    <option value="" disabled>중/장거리</option>
                                     <option value="4">800M</option>
                                     <option value="5">1500M</option>
-                                    <option value="6">5000M</option>
-                                    <option value="7">10000M</option>
-                                    <option value="8">3000M 장애물</option>
-                                    <option value="" disabled="">허들달리기</option>
-                                    <option value="9">110M 허들</option>
-                                    <option value="10">400M 허들</option>
-                                    <option value="" disabled="">점프경기</option>
-                                    <option value="11">높이뛰기</option>
-                                    <option value="12">장대높이뛰기</option>
-                                    <option value="13">멀리뛰기</option>
-                                    <option value="14">삼단뛰기</option>
-                                    <option value="" disabled="">던지기</option>
-                                    <option value="15">투포환</option>
-                                    <option value="16">원반던지기</option>
-                                    <option value="17">해머던지기</option>
-                                    <option value="18">창던지기</option>
-                                    <option value="" disabled="">종합</option>
-                                    <option value="19">10종 경기</option>
-                                    <option value="" disabled="">경보</option>
-                                    <option value="20">10000M 경보</option>
-                                    <option value="" disabled="">릴레이</option>
-                                    <option value="21">4x100M 릴레이</option>
-                                    <option value="22">4x400M 릴레이</option>
-                                    <option value="23">4x400M 혼성</option>
+                                    <option value="6">3000M</option>
+                                    <option value="7">5000M</option>
+                                    <option value="8">10000M</option>
+                                    <option value="9">3000M 장애물</option>
+                                    <option value="" disabled>허들달리기</option>
+                                    <option value="10">100M 허들</option>
+                                    <option value="11">110M 허들</option>
+                                    <option value="12">400M 허들</option>
+                                    <option value="" disabled>점프경기</option>
+                                    <option value="13">높이뛰기</option>
+                                    <option value="14">장대높이뛰기</option>
+                                    <option value="15">멀리뛰기</option>
+                                    <option value="16">삼단뛰기</option>
+                                    <option value="" disabled>던지기</option>
+                                    <option value="17">투포환</option>
+                                    <option value="18">원반던지기</option>
+                                    <option value="19">해머던지기</option>
+                                    <option value="20">창던지기</option>
+                                    <option value="" disabled>종합</option>
+                                    <option value="21">7종 경기</option>
+                                    <option value="22">10종 경기</option>
+                                    <option value="" disabled>경보</option>
+                                    <option value="23">10000M 경보</option>
+                                    <option value="" disabled>릴레이</option>
+                                    <option value="24">4x100M 릴레이</option>
+                                    <option value="25">4x400M 릴레이</option>
+                                    <option value="26">4x400M 혼성</option>
                                 </select>
                             </div>
                             <div class="search" style="width: 15em;">
                                 <input type="text" id="search_judge" class="word" name="search_judge"
-                                    placeholder="검색어를 입력해주세요" maxlength="30">
+                                    placeholder="이름을 입력해주세요" maxlength="30">
                                 <button type="submit" class="btn_search" title="검색"></a>
                             </div>
                         </div>
@@ -125,22 +128,40 @@
 
                     <!-- 임원 테이블 -->
                     <table class="table table-hover team_table display" id="director_table">
-                        <colgroup>
-                            <col width="5%">
-                            <col width="8%">
-                            <col width="7%">
-                            <col width="8%">
-                            <col width="8%">
-                            <col width="10%">
-                            <col width="5%">
-                            <col width="7%">
-                            <col width="13%">
-                            <col width="10%">
-                            <col width="10%">
-                            <col width="12%">
+                                                <colgroup>
+                            <!--
+                                <col width="5%">
+                                <col width="8%">
+                                <col width="7%">
+                                <col width="10%">
+                                <col width="8%">
+                                <col width="10%">
+                                <col width="5%">
+                                <col width="7%">
+                                <col width="13%">
+                                <col width="10%">
+                                <col width="10%">
+                                <col width="10%">
+                                -->
+                            <col width="auto">
+                            <col width="auto">
+                            <col width="auto">
+                            <col width="auto">
+                            <col width="auto">
+                            <col width="auto">
+                            <col width="auto">
+                            <col width="auto">
+                            <col width="auto">
+                            <col width="auto">
+                            <col width="auto">
+                            <col width="auto">
+                            <col width="auto">
                         </colgroup>
                         <thead>
                             <tr>
+                                <th scope="col">
+                                    <input type="checkbox" name="checkAthlete-all" id="checkAthlete-all" onclick="toggle(this)">
+                                </th>
                                 <th scope="col">번호</th>
                                 <th scope="col">이름</th>
                                 <th scope="col">국가</th>
@@ -157,49 +178,40 @@
                         </thead>
                         <tbody>
                             <tr>
-                                <td class="director_no">1</td>
-                                <td class="director_name">고길동</td>
-                                <td class="director_nation">한국</td>
-                                <td class="director_division">한국심판협회</td>
-                                <td class="director_gender">남</td>
-                                <td class="director_birth">1998년 11월 15일</td>
-                                <td class="director_age">25</td>
-                                <td class="director_role">주 심판</td>
-                                <td class="director_attendent_game">100m, 200m</td>
-
+                                <td scope="col">
+                                    <input type="checkbox" id="checkAthlete" name="checkAthlete">
+                                </td>
+                                <td class="judge_no">1</td>
+                                <td class="judge_name">고길동</td>
+                                <td class="judge_nation">한국</td>
+                                <td class="judge_division">한국심판협회</td>
+                                <td class="judge_gender">남</td>
+                                <td class="judge_birth">1998년 11월 15일</td>
+                                <td class="judge_age">25</td>
+                                <td class="judge_role">주 심판</td>
+                                <td class="judge_attendent_game">100m, 200m</td>
                                 <td><input type="button"
-                                        onclick="window.open('director_input.php','창 이름','width=900,height=512,location=no,status=no,scrollbars=yes')"
+                                        onclick="createPopupWin('./entry_director_info.php',
+                                            '상세내용 보기', 1100, 900);"
                                         value="보기" class="btn_view"></td>
                                 <td><input type="button"
-                                        onclick="window.open('director_modify.php','창 이름','width=900,height=512,location=no,status=no,scrollbars=yes')"
+                                        onclick="createPopupWin('./entry_director_modify.php',
+                                            '상세내용 수정', 1100, 900);"
                                         value="수정" class="btn_modify"></td>
                                 <td><a href="#" onclick="" class="btn_delete">삭제</a></td>
-                            </tr>
-                            <tr>
-                                <td scope="col">2</td>
-                                <td scope="col">김순자</td>
-                                <td scope="col">미국</td>
-                                <td scope="col">미국심판협회</td>
-                                <td scope="col">여</td>
-                                <td scope="col">1968년 11월 15일</td>
-                                <td scope="col">69</td>
-                                <td scope="col">부 심판</td>
-                                <td scope="col">투포환</td>
-                                <td><input type="button"
-                                        onclick="window.open('director_input.php','창 이름','width=900,height=512,location=no,status=no,scrollbars=yes')"
-                                        value="보기" class="btn_view"></td>
-                                <td><input type="button"
-                                        onclick="window.open('director_modify.php','창 이름','width=900,height=512,location=no,status=no,scrollbars=yes')"
-                                        value="수정" class="btn_modify"></td>
-                                <td scope="col"><a href="#" onclick="" class="btn_delete">삭제</a></td>
                             </tr>
                         </tbody>
                     </table>
                 </div>
                 <!-- 등록 버튼 -->
+                <div class="btn_base base_mar col_left">
+                    <input class="btn_issueId btn_txt bold" type="button"
+                        onclick="createPopupWin('entry_athlete_issue.php','ID카드', 1100, 900);"
+                        value="ID발급" class="btn_view">
+                </div>
                 <div class="btn_base base_mar col_right">
                     <input class="btn_add btn_txt bold" type="button"
-                        onclick="window.open('director_input.php','창 이름','width=900,height=512,location=no,status=no,scrollbars=yes')"
+                        onclick="window.open('entry_director_input.php','창 이름','width=900,height=512,location=no,status=no,scrollbars=yes')"
                         value="등록" class="btn_view">
                 </div>
             </div>

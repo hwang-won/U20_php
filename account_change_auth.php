@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ko">
 
 <head>
     <meta charset="UTF-8" />
@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="fontawesome/css/all.min.css" />
     <script src="/fontawesome/js/all.min.js"></script>
-    <title>signup</title>
+    <title>change_auth</title>
 </head>
 
 <body>
@@ -22,55 +22,18 @@
     <div class="container">
         <div class="contents something ptop--40">
             <div class="mypage">
-                <h3>계정 생성</h3>
+                <h3>권한 변경</h3>
                 <hr />
                 <div class="mypage_notice">
-                    <h5>새로운 계정의 정보를 입력해 주세요.</h5>
-                    <p>- 비밀번호는 4 ~ 20 자로 설정해 주세요.</p>
+                    <h5>권한을 변경해 주세요.</h5>
+                    <p>- authEntrys : 참가자 관리</p>
+                    <p>- authAthletes : 선수 관리</p>
+                    <p>- authSchedules : 경기 관리</p>
+                    <p>- authRecords : 기록 관리</p>
+                    <p>- authStatics : 통계 관리</p>
                 </div>
+
                 <form action="#" method="post" class="form">
-                    <div class="input_row">
-                        <input placeholder="아이디" type="text" name="id" class="input_text" value="" maxlength="16"
-                            required="" />
-                    </div>
-                    <!-- #2 PASSWORD VERIFICATION -->
-                    <script>
-                        const check = function () {
-                            if (
-                                document.getElementById("pw").value ==
-                                document.getElementById("cpassword").value
-                            ) {
-                                document.getElementById(
-                                    "message"
-                                ).style.color = "green";
-                                document.getElementById(
-                                    "message"
-                                ).innerHTML = "비밀번호가 같습니다.";
-                            } else {
-                                document.getElementById(
-                                    "message"
-                                ).style.color = "red";
-                                document.getElementById(
-                                    "message"
-                                ).innerHTML = "비밀번호가 다릅니다.";
-                            }
-                        };
-                    </script>
-                    <div class="input_row">
-                        <input placeholder="비밀번호" type="password" name="pw" id="pw" class="input_text" value=""
-                            minlength="4" maxlength="20" required="" onkeyup="check();" />
-                    </div>
-                    <div class="input_row">
-                        <input placeholder="비밀번호 재확인" type="password" name="cpassword" id="cpassword" class="input_text"
-                            value="" minlength="4" maxlength="20" required="" onkeyup="check();" />
-                    </div>
-                    <span id="message"></span>
-
-                    <div class="input_row">
-                        <input placeholder="이름" type="text" name="name" class="input_text" value="" maxlength="50"
-                            required="" />
-                    </div>
-
                     <h3>권한 설정</h3>
                     <div class="input_row">
                         <div class="form_check">
@@ -148,10 +111,9 @@
                             </label>
                         </div>
                     </div>
-
                     <div class="signup_submit">
                         <button type="submit" class="btn_login" name="signup">
-                            <span>확인</span>
+                            <span>변경하기</span>
                         </button>
                     </div>
                 </form>
@@ -160,8 +122,7 @@
     </div>
 
     <!-- footer -->
-    <?php include 'footer.php'; ?>
-    <script src="js/main.js"></script>
+    <?php include 'footer.php'; ?> 
 </body>
 
 </html>

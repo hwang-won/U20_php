@@ -13,11 +13,11 @@
 </head>
 
 <body>
-    <!-- header -->
-    <?php include 'header.php' ?>
+  <!-- header -->
+  <?php include 'header.php' ?>
 
-    <!-- sidebar -->
-    <?php include 'sidebar.php' ?>
+  <!-- sidebar -->
+  <?php include 'sidebar.php' ?>
 
     <!-- contents 본문 내용 -->
     <div class="container">
@@ -44,11 +44,11 @@
 
                             <div class="select_box mr10">
                                 <select class="d_select" title="지역" style="width: 172.667px">
-                                    <option value="" hidden="">지역</option>
+                                    <option value="" hidden="">국가 코드</option>
                                     <option value="" disabled="">
-                                        서울
+                                        KOR
                                     </option>
-                                    <option value="1">도쿄</option>
+                                    <option value="1">JAP</option>
                                 </select>
                             </div>
 
@@ -60,21 +60,21 @@
                             <tr>
                                 <th scope="col">구분</th>
                                 <th colspan="3" scope="col">국가 이름</th>
-                                <th colspan="3" scope="col">지역</th>
+                                <th colspan="3" scope="col">국가 코드</th>
                             </tr>
                         </thead>
                         <tbody>
                             <tr>
                                 <td scope="col">0</td>
                                 <td colspan="3" scope="col">Korea</td>
-                                <td colspan="3" scope="col">서울</td>
+                                <td colspan="3" scope="col">KOR</td>
                             <tr>
                                 <td scope="col">1</td>
                                 <td colspan="3" scope="col">
                                     Japan
                                 </td>
                                 <td colspan="3" scope="col">
-                                    도쿄
+                                    JAP
                                 </td>
                             </tr>
                             </tr>
@@ -83,7 +83,7 @@
                     <div class="selectArea float_r">
                         <div class="btn_base base_mar col_right">
                             <input class="btn_add btn_txt bold" type="button"
-                                onclick="window.open('newcountry.php','창 이름','width=900,height=512,location=no,status=no,scrollbars=yes')"
+                                onclick="window.open('newcountry.html','창 이름','width=900,height=512,location=no,status=no,scrollbars=yes')"
                                 value="등록" class="btn_view">
                         </div>
                         <colgroup>
@@ -118,10 +118,13 @@
             </div>
         </div>
     </div>
-
     <!-- footer -->
-    <?php include 'footer.php'; ?>
-    
+    <footer>
+        <p class="footer_text">
+            Copyright © 2022, 20th Asian U20 Athletics Championships
+            Yecheon. All rights reserved.
+        </p>
+    </footer>
     <script src="js/main.js"></script>
 </body>
 
