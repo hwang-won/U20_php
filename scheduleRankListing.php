@@ -32,6 +32,9 @@
                 <div class="btn_base base_mar" style="float: left; display: flex; align-items: center;">
                     <input type="button" onclick="" class="btn_excel bold" value="엑셀 출력">
                     <div class="" style="padding-left: 30px; font-size:var(--font-regular)">
+                        경기: 100m
+                    </div>
+                    <div class="" style="padding-left: 30px; font-size:var(--font-regular)">
                         풍속/용기구: +1.3m
                     </div>
                 </div>

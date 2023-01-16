@@ -112,7 +112,6 @@
                         <col style="width: 10%;">
                         <col style="width:15%;">
                         <col style="width:25%;">
-                        <col style="width:20%;">
                         <col style="width:10%;">
                         <col style="width:10%;">
                         <col style="width:10%;">
@@ -122,7 +121,6 @@
                             <th onclick="sortTable(0)">순위</th>
                             <th onclick="sortTable(1)">국가</th>
                             <th onclick="sortTable(2)">이름</th>
-                            <th onclick="sortTable(3)">출전 종목</th>
                             <th onclick="sortTable(4)">금</th>
                             <th onclick="sortTable(5)">은</th>
                             <th onclick="sortTable(6)">동</th>
