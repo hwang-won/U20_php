@@ -34,83 +34,218 @@
                 </div>
 
                 <form action="#" method="post" class="form">
-                    <h3>권한 설정</h3>
-                    <div class="input_row">
-                        <div class="form_check">
-                            <label>
-                                <input type="checkbox" name="auth" value="1" id="authEntrys" class="" required />
-                                <span>authEntrys</span>
-                            </label>
-                            <label>
-                                <input type="checkbox" name="auth" value="1" id="authEntrys" class="" />
-                                <span>읽기</span>
-                            </label>
-                            <label>
-                                <input type="checkbox" name="auth" value="1" id="authEntrys" class="" />
-                                <span>수정/삭제/등록</span>
-                            </label>
-                        </div>
+                        <h3>권한 설정</h3>
+                        <div class="input_row">
+                            <div class="form_check">
+                                <label>
+                                    <span>참가자 관리 페이지</span>
+                                </label>
+                                <label>
+                                    <input
+                                        type="checkbox"
+                                        value="authEntrysRead"
+                                        name="authEntrysRead"
+                                        class=""
+                                    />
+                                    <span>읽기</span>
+                                </label>
+                                <label>
+                                    <input
+                                        type="checkbox"
+                                        value="authEntrysUpdate"
+                                        name="authEntrysUpdate"
+                                        class=""
+                                    />
+                                    <span>수정</span>
+                                </label>
+                                <label>
+                                    <input
+                                        type="checkbox"
+                                        value="authEntrysDelete"
+                                        name="authEntrysDelete"
+                                        class=""
+                                    />
+                                    <span>삭제</span>
+                                </label>
+                                <label>
+                                    <input
+                                        type="checkbox"
+                                        value="authEntrysCreate"
+                                        name="authEntrysCreate"
+                                        class=""
+                                    />
+                                    <span>등록</span>
+                                </label>
+                            </div>
 
-                        <div class="form_check">
-                            <label>
-                                <input type="checkbox" name="auth" value="2" id="authAthletes" class="" />
-                                <span>authAthletes</span>
-                            </label>
-                            <label>
-                                <input type="checkbox" name="auth" value="1" id="authEntrys" class="" />
-                                <span>읽기</span>
-                            </label>
-                            <label>
-                                <input type="checkbox" name="auth" value="1" id="authEntrys" class="" />
-                                <span>수정/삭제/등록</span>
-                            </label>
-                        </div>
+                            <div class="form_check">
+                                <label>
+                                    <span>경기 관리 페이지</span>
+                                </label>
+                                <label>
+                                    <input
+                                        type="checkbox"
+                                        value="authSchedulesRead"
+                                        name="authSchedulesRead"
+                                        class=""
+                                    />
+                                    <span>읽기</span>
+                                </label>
+                                <label>
+                                    <input
+                                        type="checkbox"
+                                        value="authSchedulesUpdate"
+                                        name="authSchedulesUpdate"
+                                        class=""
+                                    />
+                                    <span>수정</span>
+                                </label>
+                                <label>
+                                    <input
+                                        type="checkbox"
+                                        value="authSchedulesDelete"
+                                        name="authSchedulesDelete"
+                                        class=""
+                                    />
+                                    <span>삭제</span>
+                                </label>
+                                <label>
+                                    <input
+                                        type="checkbox"
+                                        value="authSchedulesCreate"
+                                        name="authSchedulesCreate"
+                                        class=""
+                                    />
+                                    <span>등록</span>
+                                </label>
+                            </div>
 
-                        <div class="form_check">
-                            <label>
-                                <input type="checkbox" name="auth" value="3" id="authSchedules" class="" />
-                                <span>authSchedules</span>
-                            </label>
-                            <label>
-                                <input type="checkbox" name="auth" value="1" id="authEntrys" class="" />
-                                <span>읽기</span>
-                            </label>
-                            <label>
-                                <input type="checkbox" name="auth" value="1" id="authEntrys" class="" />
-                                <span>수정/삭제/등록</span>
-                            </label>
-                        </div>
+                            <div class="form_check">
+                                <label>
+                                    <span>기록 관리 페이지</span>
+                                </label>
+                                <label>
+                                    <input
+                                        type="checkbox"
+                                        value="authRecordsRead"
+                                        name="authRecordsRead"
+                                        class=""
+                                    />
+                                    <span>읽기</span>
+                                </label>
+                                <label>
+                                    <input
+                                        type="checkbox"
+                                        value="authRecordsUpdate"
+                                        name="authRecordsUpdate"
+                                        class=""
+                                    />
+                                    <span>수정</span>
+                                </label>
+                                <label>
+                                    <input
+                                        type="checkbox"
+                                        value="authRecordsDelete"
+                                        name="authRecordsDelete"
+                                        class=""
+                                    />
+                                    <span>삭제</span>
+                                </label>
+                                <label>
+                                    <input
+                                        type="checkbox"
+                                        value="authRecordsCreate"
+                                        name="authRecordsCreate"
+                                        class=""
+                                    />
+                                    <span>등록</span>
+                                </label>
+                            </div>
 
-                        <div class="form_check">
-                            <label>
-                                <input type="checkbox" name="auth" value="4" id="authRecords" class="" />
-                                <span>authRecords</span>
-                            </label>
-                            <label>
-                                <input type="checkbox" name="auth" value="1" id="authEntrys" class="" />
-                                <span>읽기</span>
-                            </label>
-                            <label>
-                                <input type="checkbox" name="auth" value="1" id="authEntrys" class="" />
-                                <span>수정/삭제/등록</span>
-                            </label>
-                        </div>
+                            <div class="form_check">
+                                <label>
+                                    <span>통계 관리 페이지</span>
+                                </label>
+                                <label>
+                                    <input
+                                        type="checkbox"
+                                        value="authStaticsRead"
+                                        name="authStaticsRead"
+                                        class=""
+                                    />
+                                    <span>읽기</span>
+                                </label>
+                                <label>
+                                    <input
+                                        type="checkbox"
+                                        value="authStaticsUpdate"
+                                        name="authStaticsUpdate"
+                                        class=""
+                                    />
+                                    <span>수정</span>
+                                </label>
+                                <label>
+                                    <input
+                                        type="checkbox"
+                                        value="authStaticsDelete"
+                                        name="authStaticsDelete"
+                                        class=""
+                                    />
+                                    <span>삭제</span>
+                                </label>
+                                <label>
+                                    <input
+                                        type="checkbox"
+                                        value="authStaticsCreate"
+                                        name="authStaticsCreate"
+                                        class=""
+                                    />
+                                    <span>등록</span>
+                                </label>
+                            </div>
 
-                        <div class="form_check">
-                            <label>
-                                <input type="checkbox" name="auth" value="5" id="authStatics" class="" />
-                                <span>authStatics</span>
-                            </label>
-                            <label>
-                                <input type="checkbox" name="auth" value="1" id="authEntrys" class="" />
-                                <span>읽기</span>
-                            </label>
-                            <label>
-                                <input type="checkbox" name="auth" value="1" id="authEntrys" class="" />
-                                <span>수정/삭제/등록</span>
-                            </label>
+                            <div class="form_check">
+                                <label>
+                                    <span>계정 관리 페이지</span>
+                                </label>
+                                <label>
+                                    <input
+                                        type="checkbox"
+                                        value="authAccountsRead"
+                                        name="authAccountsRead"
+                                        class=""
+                                    />
+                                    <span>읽기</span>
+                                </label>
+                                <label>
+                                    <input
+                                        type="checkbox"
+                                        value="authAccountsUpdate"
+                                        name="authAccountsUpdate"
+                                        class=""
+                                    />
+                                    <span>수정</span>
+                                </label>
+                                <label>
+                                    <input
+                                        type="checkbox"
+                                        value="authAccountsDelete"
+                                        name="authAccountsDelete"
+                                        class=""
+                                    />
+                                    <span>삭제</span>
+                                </label>
+                                <label>
+                                    <input
+                                        type="checkbox"
+                                        value="authAccountsCreate"
+                                        name="authAccountsCreate"
+                                        class=""
+                                    />
+                                    <span>등록</span>
+                                </label>
+                            </div>
                         </div>
-                    </div>
                     <div class="signup_submit">
                         <button type="submit" class="btn_login" name="signup">
                             <span>변경하기</span>

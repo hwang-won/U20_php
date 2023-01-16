@@ -103,16 +103,16 @@
                 </p>
                 <div class="accordion_content">
                     <ul>
-                        <li><a href="mypage.php">계정 정보</a></li>
+                        <li><a href="account_mypage.php">계정 정보</a></li>
                         <li>
-                            <a href="change_pw.php">비밀번호 변경</a>
+                            <a href="account_change_pw.php">비밀번호 변경</a>
                         </li>
-                        <li><a href="signup.php">계정 생성</a></li>
+                        <li><a href="account_signup.php">계정 생성</a></li>
                         <li>
-                            <a href="user.php">계정 목록</a>
+                            <a href="account_user.php">계정 목록</a>
                         </li>
                         <li>
-                            <a href="log.php">로그 목록</a>
+                            <a href="account_log.php">로그 목록</a>
                         </li>
                     </ul>
                 </div>

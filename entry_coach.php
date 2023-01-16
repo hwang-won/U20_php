@@ -174,7 +174,7 @@
                                             '상세내용 보기', 1100, 900);" value="보기" class="btn_view"></td>
                                 <td><input type="button" onclick="createPopupWin('./entry_coach_modify.php',
                                             '상세내용 수정', 1100, 900);" value="수정" class="btn_modify"></td>
-                                <td><a href="#" onclick="" class="btn_delete">삭제</a></td>
+                                <td><input type="button" onclick="" class="btn_delete" value="삭제"></td>
                             </tr>
                         </tbody>
                         <script language="JavaScript">
