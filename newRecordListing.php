@@ -51,7 +51,7 @@
                         </select>
                     </div>
                     <div class="select_box mr10">
-                        <select class="d_select" id="sport"title="구분" style="width: 172.667px;">
+                        <select class="d_select" id="sport" title="구분" style="width: 172.667px;">
                             <option value="" hidden>종목</option>
                             <option value="" disabled>단거리달리기</option>
                             <option value="1">100M</option>
@@ -98,113 +98,125 @@
                 <table width="100%" cellspacing="0" cellpadding="0" class="table table-hover team_table">
                     <colgroup>
                         <col style="width:15%;">
-                        <col style="width:15%;">
-                        <col style="width:20%;">
-                        <col style="width:12%;">
+                        <col style="width:22%;">
+                        <col style="width:6%;">
+                        <col style="width:18%;">
+                        <col style="width:8%;">
                         <col style="width:13%;">
-                        <col style="width:15%;">
                         <col style="width:10%;">
+                        <col style="width:8%;">
                     </colgroup>
                     <thead>
                         <tr>
                             <th onclick="sortTable(0)">기록구분</th>
                             <th onclick="sortTable(1)">이름</th>
-                            <th onclick="sortTable(2)">종목</th>
-                            <th onclick="sortTable(3)">풍속/용기구</th>
-                            <th onclick="sortTable(4)">기록</th>
-                            <th onclick="sortTable(5)">기록일자</th>
-                            <th onclick="sortTable(6)">소속</th>
+                            <th onclick="sortTable(2)">성별</th>
+                            <th onclick="sortTable(3)">종목</th>
+                            <th onclick="sortTable(4)">풍속/용기구</th>
+                            <th onclick="sortTable(5)">기록</th>
+                            <th onclick="sortTable(6)">기록일자</th>
+                            <th onclick="sortTable(7)">소속</th>
                         </tr>
                     </thead>
                     <tbody>
                         <tr>
                             <td>세계U20신기록</td>
-                            <td>정재헌</td>
+                            <td>MinGee Kim</td>
+                            <td>여</td>
                             <td>100M</td>
                             <td>+1.2m</td>
+                            <td>09.89</td>
+                            <td>2023.06.04</td>
+                            <td>KOR</td>
+                        </tr>
+                        <tr>
+                            <td>세계신기록</td>
+                            <td>Bingtian SU</td>
+                            <td>여</td>
+                            <td>javelinthrow</td>
+                            <td>1kg</td>
+                            <td>91m</td>
+                            <td>2023.06.04</td>
+                            <td>CHN</td>
+                        </tr>
+                        <tr>
+                            <td>아시아U20신기록</td>
+                            <td>Republic of Korea</td>
+                            <td></td>
+                            <td>4x400m relay(Mixed)</td>
+                            <td>-0.7m</td>
+                            <td>03:18.00</td>
+                            <td>2023.06.04</td>
+                            <td>KOR</td>
+                        </tr>
+                        <tr>
+                            <td>아시아U20신기록</td>
+                            <td>Yuma MARUYAMA</td>
+                            <td>여</td>
+                            <td>decathlon</td>
+                            <td></td>
+                            <td>7790</td>
+                            <td>2023.06.05</td>
+                            <td>JPN</td>
+                        </tr>
+                        <tr>
+                            <td>아시아신기록</td>
+                            <td>Yuhao SHI</td>
+                            <td>여</td>
+                            <td>longjump</td>
+                            <td>+0.8m</td>
+                            <td>08.31m</td>
+                            <td>2023.06.04</td>
+                            <td>CHN</td>
+                        </tr>
+                        <tr>
+                            <td>대회신기록</td>
+                            <td>정재헌</td>
+                            <td>남</td>
+                            <td>10km Race Walk</td>
+                            <td></td>
                             <td>09.89</td>
                             <td>2023.06.04</td>
                             <td>한국</td>
                         </tr>
                         <tr>
-                            <td>세계신기록</td>
+                            <td>대회신기록</td>
                             <td>정재헌</td>
-                            <td>창던지기</td>
-                            <td>2kg</td>
-                            <td>91m</td>
-                            <td>1992.08</td>
-                            <td>한국</td>
-                        </tr>
-                        <tr>
-                            <td>아시아U20신기록</td>
-                            <td>정재헌</td>
+                            <td>남</td>
                             <td>100M</td>
                             <td></td>
                             <td>09.89</td>
-                            <td>1992.08</td>
-                            <td>한국</td>
-                        </tr>
-                        <tr>
-                            <td>아시아U20신기록</td>
-                            <td>정재헌</td>
-                            <td>100M</td>
-                            <td></td>
-                            <td>09.89</td>
-                            <td>1992.08</td>
-                            <td>한국</td>
-                        </tr>
-                        <tr>
-                            <td>아시아신기록</td>
-                            <td>정재헌</td>
-                            <td>100M</td>
-                            <td></td>
-                            <td>09.89</td>
-                            <td>1992.08</td>
+                            <td>2023.06.04</td>
                             <td>한국</td>
                         </tr>
                         <tr>
                             <td>대회신기록</td>
                             <td>정재헌</td>
+                            <td>남</td>
                             <td>100M</td>
                             <td></td>
                             <td>09.89</td>
-                            <td>1992.08</td>
+                            <td>2023.06.04</td>
                             <td>한국</td>
                         </tr>
                         <tr>
                             <td>대회신기록</td>
                             <td>정재헌</td>
+                            <td>남</td>
                             <td>100M</td>
                             <td></td>
                             <td>09.89</td>
-                            <td>1992.08</td>
+                            <td>2023.06.04</td>
                             <td>한국</td>
                         </tr>
                         <tr>
                             <td>대회신기록</td>
                             <td>정재헌</td>
+                            <td>남</td>
                             <td>100M</td>
                             <td></td>
                             <td>09.89</td>
-                            <td>1992.08</td>
-                            <td>한국</td>
-                        </tr>
-                        <tr>
-                            <td>대회신기록</td>
-                            <td>정재헌</td>
-                            <td>100M</td>
-                            <td></td>
-                            <td>09.89</td>
-                            <td>1992.08</td>
-                            <td>한국</td>
-                        </tr>
-                        <tr>
-                            <td>대회신기록</td>
-                            <td>정재헌</td>
-                            <td>100M</td>
-                            <td></td>
-                            <td>09.89</td>
-                            <td>1992.08</td>
+                            <td>2023.06.04</td>
                             <td>한국</td>
                         </tr>
                     </tbody>
@@ -233,7 +245,7 @@
 
     <!-- footer -->
     <?php include 'footer.php'; ?>
-    
+
     <script src="js/main.js"></script>
 </body>
 
